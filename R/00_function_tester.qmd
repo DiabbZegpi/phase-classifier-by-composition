@@ -7,33 +7,77 @@ editor_options:
 
 ```{r}
 library(tidyverse)
-data_path <- "data/HEA data.csv"
+library(here)
+data_path <- here("data/HEA data.csv")
 hea_data <- read_csv(data_path)
 ```
 
-```{r}
-set.seed(133)
-hea_sample <- hea_data |> slice_sample(n = 5)
-hea_sample
-```
 
 ```{r}
-hea_sample |> 
+hea_selected <- hea_data |> 
+  filter(`Composicion (at.%)` != "N/A") |> 
   transmute(
+    id = Numero,
+    aleacion = Aleacion,
     composicion = `Composicion (at.%)`,
-    lista_elementos = str_match_all(composicion, "([a-zA-Z]{1,2})(\\d[:punct:]?\\d*)?")
+    categoria = Categoria,
+    fabricacion = Fabricacion,
+    fase = Categoría,
+    densidad = `Densidad (g/cm3)`,
+    dureza = `Dureza (HV)`,
+    modulo_young = `Modulo de Young (GPa)`,
+    composicion = `Composicion (at.%)`,
+    limite_elastico = `Limite Elastico (Mpa)`,
+    esfuerzo_ultimo = `Esfuerzo ultimo`,
+    deformacion = Deformacion,
   ) |> 
+  mutate(across(densidad:deformacion, ~ parse_number(na_if(str_replace(.x, ",", "."), "N/A"))))
+
+hea_preproc <- hea_selected |> 
   mutate(
+    # Get 1 or 2 letters (the element) followed by a number that might be integer or decimal
+    # Elements without atomic-pct get NA, which is useful later
+    lista_elementos = str_match_all(composicion, "([a-zA-Z]{1,2})(\\d+[:punct:]?\\d*)?"),
     elementos = map(lista_elementos, ~ .x[, 2]),
     porcentajes = map(lista_elementos, ~ parse_number(str_replace(.x[, 3], ",", "."))),
+    # if comp #1 is Al10 Co Fe, then Co and Fe add up to 90, so 90/2 each
     porcentaje_compl = map_dbl(porcentajes, ~ 100 - sum(.x, na.rm = TRUE)),
     porcentaje_na_cnt = map_int(porcentajes, ~ sum(is.na(.x))),
     porcentaje_clean = pmap(
       list(porcentajes, porcentaje_compl, porcentaje_na_cnt), 
       function(x, y, z) replace_na(x, y / z)
-    )
+    ),
+    df = map2(elementos, porcentaje_clean, ~ tibble("elementos" = .x, "pct_atom" = .y))
   ) |> 
-  pull(porcentaje_clean)
+  select(id, composicion, df) |> 
+  unnest(df) |> 
+  mutate(elementos = str_to_sentence(elementos)) |> 
+  filter(!elementos %in% c("At", "Wt", "En"))
 ```
+
+
+```{r}
+hea_wider <- hea_preproc |>
+  pivot_wider(
+    names_from = elementos, 
+    values_from = pct_atom, 
+    values_fill = 0, 
+    values_fn = unique,
+    id_cols = c(id, composicion)
+  ) |> 
+  left_join(
+    hea_selected |> select(id, aleacion),
+    by = join_by(id),
+    na_matches = "never",
+    relationship = "one-to-one"
+  )
+```
+
+```{r}
+write_csv(hea_selected, here("data/propiedades.csv"))
+write_csv(hea_wider, here("data/porcentaje_atomico.csv"))
+```
+
+
 
 
