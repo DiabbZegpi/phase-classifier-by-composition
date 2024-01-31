@@ -1,0 +1,560 @@
+id,aleacion,composicion,categoria,fabricacion,fase,densidad,dureza,modulo_young,limite_elastico,esfuerzo_ultimo,deformacion
+1,Al40Cu15Cr15Fe15Si15,Al41-Cu13-Fe14-Cr16-Si16,LHEA,Induccion al vacio  modelo VIM,BCC + IM,4.5,916,NA,2994,NA,NA
+2,Al65Cu5Cr5Si15Mn5Ti5,Al66-Cu6-Cr4-Si13-Mn7-Ti4,LHEA,Induccion al vacio  modelo VIM,BCC + IM,3.7,889,NA,2916,NA,NA
+3,Al60Cu10Fe10Cr5Mn5Ni5Mg5,Al60-Cu11-Fe10-Cr6-Mn5-Ni6-Mg2,LHEA,Induccion al vacio  modelo VIM,AM,4.6,743,NA,2429,NA,NA
+4,Al20Li20Mg10Sc20Ti30,Al20-Li20-Mg10-Sc20-Ti30,LHEA,Aleacion Mecánica,FCC,2.67,591,NA,1932,NA,NA
+5,"Al20Li20Mg10Sc20Ti31  w/ N, O","(Al20-Li20-Mg10-Sc20-Ti30)98,21-N0,4-O1,39",LHEA,Aleacion Mecánica + impurezas de N y O,FCC,2.67,622,NA,2033,NA,NA
+6,Al20Be20Fe10Si15Ti35,"Al21,4-Be19,6-Fe12-Si13,1-Ti32,8",LHEA,Fusión por arco en vacío,FCC+IM,3.9099999999999997,911,NA,2976,NA,NA
+7,Mg20(MnAlZnCu)80,Mg20-(Mn25-Al25-Zn25-Cu25)80,LHEA,Fundicion por induccion en Argón,HCP+IM,4.26,431,13.01,428,428,3.29
+8,Mg33(MnAlZnCu)67,Mg33-(Mn25-Al25-Zn25-Cu25)67,LHEA,Fundicion por induccion en Argón,HCP+IM,3.27,318,12.8,437,437,3.4099999999999997
+9,Mg43(MnAlZnCu)57,Mg43-(Mn25-Al25-Zn25-Cu25)57,LHEA,Fundicion por induccion en Argón,HCP+IM,2.5,255,13.2,500,500,3.72
+10,Mg45.6(MnAlZnCu)54.4,"Mg45,6-(Mn25-Al25-Zn25-Cu25)54,4",LHEA,Fundicion por induccion en Argón,HCP+IM,2.2800000000000002,225,11.870000000000001,482,482,4.06
+11,Mg50(MnAlZnCu)50,Mg50-(Mn25-Al25-Zn25-Cu25)50,LHEA,Fundicion por induccion en Argón,HCP+IM,2.19,178,11.18,340,400,4.83
+12,MgMnAlZnCu (Air),"Mg19,1-Mn20,4-Al20,3-Zn19,8-Cu20,4",LHEA,Fundicion por induccion en Argón enfriado aire,HCP+IM,4.26,431,13,428,428,3.3
+13,MgMnAlZnCu (Water),"Mg19,8-Mn19,4-Al19,8-Zn20,8-Cu20,2",LHEA,Fundicion por induccion en Argón enfriado agua,HCP+IM,4.26,449,9.9,437,437,4.4
+14,MgMnAlZnCu (Salt),"Mg19,3-Mn19,8-Al20,6-Zn20,2-Cu20,1",LHEA,Fundicion por induccion en Argón enfriado salmuera,HCP+IM,4.26,467,8.1,450,450,5.5
+15,Al40Cu15Mn5Ni5Si20Zn15,Al36-Cu12-Si34-Mn6-Zn7-Ni5,LHEA,Horno eléctrico de inducción de vacío VIM,FCC+BCC+IM,4.08,887,NA,2900,NA,NA
+16,Al45Cu15Mn5Fe5Si5Ti5Zn20,Al38-Cu15-Si16-Mn4-Zn10-Fe6-Ti11,LHEA,Horno eléctrico de inducción de vacío VIM,FCC+BCC+IM,5.07,744,NA,2432,NA,NA
+17,Al35Cu5Fe5Mn5Si30V10Zr10,Al38-Cu6-Si32-Mn5-Fe5-Zr8-V6,LHEA,Horno eléctrico de inducción de vacío VIM,BCC + IM,3.96,751,NA,2455,NA,NA
+18,Al50Ca5Cu5Ni10Si20Ti10,Al56-Cu7-Si21-Ni7-Ti4-Ca5,LHEA,Horno eléctrico de inducción de vacío VIM,FCC+BCC+IM,3.3299999999999996,437,NA,1429,NA,NA
+19,AlNbTiV,"Al27,6-Nb24,1-Ti24,8-V23,5",LHEA,Fusión por arco en vacío,BCC,5.5,NA,NA,1000,1280,5.2
+20,AlCr0.5NbTiV,"Al25,6-Cr10,2-Nb22,2-Ti21,4-V20,6",LHEA,Fusión por arco en vacío,BCC,5.64,NA,NA,1300,1430,0.8
+21,AlCrNbTiV,"Al22,9-Cr18,8-Nb20,2-Ti19,3-V18,8",LHEA,Fusión por arco en vacío,BCC+IM,5.76,NA,NA,1550,1570,0.4
+22,AlCr1.5NbTiV,"Al21,7-Cr25,0-Nb18,7-Ti17,8-V16,8",LHEA,Fusión por arco en vacío,BCC+IM,5.859999999999999,NA,NA,1700,1700,0
+23,AlLiMgZnSn,Al20-Li20-Mg20-Zn20-Sn20,LHEA,Fundicion por induccion en Argón,FCC+BCC+IM,4.23,NA,NA,600,615,1.2
+24,AlLi0.5MgZn0.5Sn0.2,"(Al50-Mg50)98,8-Li0,5-Zn0,5-Sn0,2",LHEA,Fundicion por induccion en Argón,FCC+BCC+IM,3.22,NA,NA,NA,546,NA
+25,Al80Li5Mg5Zn5Cu5,(Al50-Mg50)85-Li5-Zn5-Cu2,LHEA,Fundicion por induccion en Argón,FCC+BCC+IM,3.08,NA,NA,488,879,17
+26,Al80Li5Mg5Zn5Sn5,(Al50-Mg50)85-Li5-Zn5-Sn2,LHEA,Fundicion por induccion en Argón,FCC+BCC+IM,3.05,NA,NA,415,836,16
+27,Ti60Cu14Ni12Sn4Nb10,Ti60-Cu14-Ni12-Sn4-Nb10,Refractario,Fundicion por arco,FCC+BCC+IM,NA,NA,66.1,1312,2401,14.5
+28,Ti60Cu14Ni12Sn4Ta10,Ti60-Cu14-Ni12-Sn4-Ta10,Refractario,Fundicion por arco,FCC+BCC+IM,NA,NA,70.8,1568,2322,6
+29,Ti50Cu23Ni20Sn7,Ti50-Cu23-Ni20-Sn7,Refractario,Fundicion por arco,HCP,NA,NA,85.3,1300,2114,5.5
+30,Ti20Zr20Hf20Nb20V20,"Ti19,42-Zr20,36-Hf20,47-Nb24,32-V15,43",Refractario,Fusión por inducción,BCC+IM,NA,387.5,128,1170,1463,29.6
+31,Ti20Zr20Hf20Nb20Cr20,"TI18,14-Zr21,9-Hf24,26-Nb26,29-Cr-9,11",Refractario,Fusión por inducción,BCC,NA,464,112,1375,2130,2.8
+32,(CoCrNi)94Al3Ti3,(Co33-Cr33-Ni33)94-Al3-Ti3,MEA,Fusión por arco en Argón,FCC+IM,NA,NA,NA,750,1300,45
+33,NiCoCr,Ni33-Co33-Cr33,MEA,Fusion por arco + envejecimiento a 800°C 1 H,FCC+IM,NA,NA,88,500,940,NA
+34,FeCoNiCr,Fe25-Co25-Ni25-Mn25,HEA,Fusion por arco + envejecimiento a 800°C 1 H,FCC+IM,NA,NA,85,350,715,NA
+35,FeCoNiCrMn,Fe20-Co20-Ni20-Cr20-Mn20,HEA,Fusion por arco + envejecimiento a 800°C 1 H,FCC+IM,NA,NA,82,310,660,NA
+36,(FeCoNiCr)94Mn6,(Fe25-Co25-Ni25-Cr25)94-Mn6,HEA,Fusion por arco + envejecimiento a 800°C 1 H,FCC+IM,NA,NA,81,308,685,NA
+37,(FeCoNiCr)86Mn14,(Fe25-Co25-Ni25-Cr25)86-Mn14,HEA,Fusion por arco + envejecimiento a 800°C 1 H,FCC+IM,NA,NA,82,305,665,NA
+38,Fe20Co15Ni25Cr20Mn20,Fe20-Co15-Ni25-Cr20-Mn20,HEA,Fusion por arco + envejecimiento a 800°C 1 H,FCC+IM,NA,NA,77,300,645,NA
+39,FeCoNiCr,"Fe25,9-Co24,3Ni24,7-Cr23,1",HEA,Fusion por arco homogeneizado 1473 K por 4 h,FCC,NA,NA,NA,200,403,68
+40,(FeCoNiCr)94Ti2Al4,"Fe24,1-Co23,3-Ni24,1-Cr22,0-Ti2,1-Al4,4",HEA,Fusion por arco homogeneizado 1473 K por 4 h,FCC,NA,NA,NA,230,503,66
+41,(FeCoNiCr)95Ti1Al4,(Fe25-Co25-Ni25-Cr25)95-Ti1-Al4,HEA,Fusion por arco homogeneizado 1200 °C por 4 h + envejecimiento 800 °C por 18 h,FCC+IM,NA,NA,NA,380,755,44
+42,(FeCoNiCr)94Ti2Al4,(Fe25-Co25-Ni25-Cr25)94-Ti2-Al4,HEA,Fusion por arco homogeneizado 1200 °C por 4 h + envejecimiento 800 °C por 18 h,FCC+IM,NA,NA,NA,520,945,34
+43,(FeCoNiCr)91Ti3Al6,(Fe25-Co25-Ni25-Cr25)91-Ti3-Al6,HEA,Fusion por arco homogeneizado 1200 °C por 4 h + envejecimiento 800 °C por 18 h,FCC+IM,NA,NA,NA,530,1040,9.5
+44,(FeCoNiCr)88Ti3Al9,(Fe25-Co25-Ni25-Cr25)88-Ti3-Al9,HEA,Fusion por arco homogeneizado 1200 °C por 4 h + envejecimiento 800 °C por 18 h,FCC+IM,NA,NA,NA,480,950,3
+45,TiZrNbTa,Ti25-Zr25-Nb25-Ta25,Refractario,Fundicion por arco en argón,BCC,NA,326,115,1020,2450,50
+46,(TiZrNbTa)95Mo5,(Ti25-Zr25-Nb25-Ta25)95-Mo5,Refractario,Fundicion por arco en argón,BCC,NA,377,129,1180,2540,50
+47,(TiZrNbTa)90Mo10,(Ti25-Zr25-Nb25-Ta25)90Mo10,Refractario,Fundicion por arco en argón,BCC,NA,428,137,1300,2250,25
+48,(TiZrNbTa)85Mo15,(Ti25-Zr25-Nb25-Ta25)85Mo15,Refractario,Fundicion por arco en argón,BCC,NA,459,150,1370,2200,18
+49,(TiZrNbTa)80Mo20,(Ti25-Zr25-Nb25-Ta25)80Mo20,Refractario,Fundicion por arco en argón,BCC,NA,500,155,1460,1980,6
+50,"Fe49,5Mn30Co10Cr10C0,5","Fe49,35-Mn30,48-Co10,31-Cr9,24-C0,63",HEA,Fusion con homogenizacion a 1200°C por 2 h + laminado en frio,FCC+IM,NA,NA,NA,1300,1500,12
+51,"Fe49,5Mn30Co10Cr10C0,6","Fe49,35-Mn30,48-Co10,31-Cr9,24-C0,64",HEA,Fusion con homogenizacion a 1200°C por 2 h + envejecimiento 650°C por 3 min,FCC,NA,NA,NA,824,1050,33
+52,"Fe49,5Mn30Co10Cr10C0,7","Fe49,35-Mn30,48-Co10,31-Cr9,24-C0,65",HEA,Fusion con homogenizacion a 1200°C por 2 h + envejecimiento 750°C por 3 min,FCC,NA,NA,NA,555,938,60
+53,CoCrMnNi,Co25-Cr25-Mn25-Ni25,HEA,Fusion por arco+homogenizacion  1373 k por 24h+envejecimiento 1173 k por 1h+laminado en frio,FCC,NA,NA,NA,280,699,43
+54,CrMnFeCoNi,Cr20-Mn20-Fe20-Co20-Ni20,HEA,Fusion por arco + envejecimiento a 1000°C por 24h + laminado en caliente,FCC,NA,NA,NA,215,590,39
+55,CrFeCoNi,Cr25-Fe25-Co25-Ni25,MEA,Fusion por arco + envejecimiento a 1000°C por 24h + laminado en caliente,FCC,NA,NA,NA,300,680,42
+56,"Al0,1CoCrFeNi","Al2,44-Co24,4-Cr24,4-Fe24,4-Ni24,4",HEA,Fusion por arco + laminado en frio,FCC,NA,NA,NA,199,531,60
+57,"Al0,1CoCrFeNi","Al2,44-Co24,4-Cr24,4-Fe24,4-Ni24,4",HEA,Fusion por arco + laminado en frio + envejecimiento a 1073 k por 1 h,FCC,NA,NA,NA,366,715,46
+58,"Al0,1CoCrFeNi","Al2,44-Co24,4-Cr24,4-Fe24,4-Ni24,5",HEA,Fundicion por induccion al vacio + prensado en caliente 1204°C,FCC,NA,181,NA,315,900,75
+59,Al0.1CrNbVMo,"Al2,3-Cr23,8-Nb24,1-V23,4-Mo26,4",Refractario,Aleacion Mecánica + sinterizado por plasma de chispa,BCC+IM,7.96,NA,99,2863,3310,6.1
+60,Al0.1CrNbVMo,"Al2,3-Cr23,8-Nb24,1-V23,4-Mo26,4",Refractario,Aleacion Mecánica + sinterizado por plasma de chispa + envejecimiento 1250°C por 16 h,BCC+IM,7.96,NA,99,2478,3190,6.8
+61,Al0.1CrNbVMo,"Al2,3-Cr23,8-Nb24,1-V23,4-Mo26,4",Refractario,Aleacion Mecánica + sinterizado por plasma de chispa + envejecimiento 1450°C por 16 h,BCC+IM,7.96,NA,99,2244,3320,8.7
+62,WNbMoTaV,W20-Nb20-Mo20-Ta20-V20,Refractario,Aleacion Mecánica + sinterizado por plasma de chispa 1500 °C,BCC+IM,NA,NA,204.44,2612,3472,8.8
+63,WNbMoTaV,W20-Nb20-Mo20-Ta20-V20,Refractario,Aleacion Mecánica + sinterizado por plasma de chispa 1600 °C,BCC+IM,NA,NA,204.44,2514,2930,4.6
+64,WNbMoTaV,W20-Nb20-Mo20-Ta20-V20,Refractario,Aleacion Mecánica + sinterizado por plasma de chispa  1700 °C,BCC,NA,NA,204.44,2491,2740,1.8
+65,Co25Ni25Fe25Al7.5Cu17.5,"Co25,5-Ni24,8-Fe6,2-Al6,7-Cu16,8",HEA,Fusion por arco al vacio en argon,FCC,NA,129,NA,192,NA,44.2
+66,Co25Ni25Fe25Al7.5Cu17.5,"Co25-Ni24,9-Fe26,6-Al6,6-Cu16,9",HEA,Aleacion Mecánica 49 h + sinterizado por plasma de chispa 1273 K,FCC,NA,454,NA,1795,1936,10.6
+67,CoCrCuFeNi,Co20-Cr20-Cu20-Fe20-Ni20,HEA,Fundicion por arco en argón,FCC,NA,NA,55.6,230,888,50.760000000000005
+68,CoCrCuFeNiTi0.5,"Co18,2-Cr18,2-Cu18,2-Fe18,2-Ni18,2-Ti9",HEA,Fundicion por arco en argón,FCC,NA,NA,98.6,700,1650,22.14
+69,CoCrCuFeNiTi0.8,"Co17,34-Cr17,34-Cu17,34-Fe17,34-Ni17,34-Ti13,28",HEA,Fundicion por arco en argón,FCC+IM,NA,NA,128.3,1042,1848,3
+70,CoCrCuFeNiTi,"Co16,6-Cr16,6-Cu16,6-Fe16,6-Ni16,6-Ti16,6",HEA,Fundicion por arco en argón,FCC+IM,NA,NA,76.5,1272,1272,1.6
+71,AlCoCrCuFeNi,"Al16,6-Co16,6-Cr16,6-Cu16,6-Fe16,6-Ni16,6",HEA,Fundicion por arco en argón,FCC+BCC,NA,420,NA,NA,NA,NA
+72,Al0.5CoCrCuFeNi,"Al9-Co18,1-Cr18,1-Cu18,1-Fe18,1-Ni18,1",HEA,Fundicion por arco en argón,FCC,NA,208,NA,NA,NA,NA
+73,AlCo0.5CrCuFeNi,"Al18,1-Co9-Cr18,1-Cu18,1-Fe18,1-Ni18,1",HEA,Fundicion por arco en argón,FCC+BCC,NA,473,NA,NA,NA,NA
+74,AlCoCr0.5CuFeNi,"Al18,1-Co18,1-Cr9-Cu18,1-Fe18,1-Ni18,1",HEA,Fundicion por arco en argón,FCC+BCC,NA,367,NA,NA,NA,NA
+75,AlCoCrCu0.5FeNi,"Al18,1-Co18,1-Cr18,1-Cu9-Fe18,1-Ni18,1",HEA,Fundicion por arco en argón,BCC,NA,458,NA,NA,NA,NA
+76,AlCoCrCuFe0.5Ni,"Al18,1-Co18,1-Cr18,1-Cu18,1-Fe9-Ni18,1",HEA,Fundicion por arco en argón,FCC+BCC,NA,418,NA,NA,NA,NA
+77,AlCoCrCuFeNi0.5,"Al18,1-Co18,1-Cr18,1-Cu18,1-Fe18,1-Ni9",HEA,Fundicion por arco en argón,FCC+BCC,NA,423,NA,NA,NA,NA
+78,Al0.3CoCrFeNi,"Al6,98-Co23,26-Cr23,26-Fe23,26-Ni23,26",HEA,fusión por arco convencional a 1150°C 1h,FCC,NA,NA,NA,159,410,65
+79,Al0.3CoCrFeNi,"Al6,98-Co23,26-Cr23,26-Fe23,26-Ni23,27",HEA,fusión por arco convencional a 1150°C 5 min,FCC,NA,NA,NA,220,550,60
+80,Al0.3CoCrFeNi,"Al6,98-Co23,26-Cr23,26-Fe23,26-Ni23,28",HEA,fusión por arco convencional a 1150°C 1h + envejecimiento a 700 °C por 50 h,FCC+IM,NA,NA,NA,215,520,43
+81,Al0.3CoCrFeNi,"Al6,98-Co23,26-Cr23,26-Fe23,26-Ni23,29",HEA,fusión por arco convencional a 1150°C 1h+ envejecimiento a 550 °C por 150 h,FCC+IM,NA,NA,NA,285,540,55
+82,Al0.3CoCrFeNi,"Al6,98-Co23,26-Cr23,26-Fe23,26-Ni23,30",HEA,fusión por arco convencional a 1150°C 2 min,FCC,NA,NA,NA,263,589,60
+83,Al0.3CoCrFeNi,"Al6,98-Co23,26-Cr23,26-Fe23,26-Ni23,31",HEA,fusión por arco convencional a 1150°C 2 min + envejecimiento a 620 °C por 50 h,FCC+IM,NA,NA,NA,490,840,45
+84,NbTiVZr,"Nb28,3-Ti24,5-V23,0-Zr24,2",HEA,Fusion por arco al vacio + Prensado 1200 °C por 2h a 207Mpa + homogenizacion 1200 °C por 24h,BCC,6.52,335.5,NA,NA,NA,NA
+85,NbTiV2Zr,"Nb22,6-Ti19,4-V37,2-Zr20,8",HEA,Fusion por arco al vacio + Prensado 1200 °C por 2h a 207Mpa + homogenizacion 1200 °C por 24h,BCC,6.34,305,NA,NA,NA,NA
+86,CrNbTiZr,"Cr24,6-Nb26,7-Ti23,9-Zr24,8",HEA,Fusion por arco al vacio + Prensado 1200 °C por 2h a 207Mpa + homogenizacion 1200 °C por 24h,FCC+BCC,6.67,418,NA,NA,NA,NA
+87,CrNbTiVZr,"Cr20,2-Nb20-Ti19,9-V19,6-Zr20,3",HEA,Fusion por arco al vacio + Prensado 1200 °C por 2h a 207Mpa + homogenizacion 1200 °C por 24h,FCC+BCC,6.57,481,NA,NA,NA,NA
+88,CoCrFeMnNi,Co20-Cr20-Fe20-Mn20-Ni20,Criogenico,Fusion por levitacion magnetica + laminado en caliente + recocido 948 K por 30 min - estudio a 77 K,FCC,NA,NA,NA,1210,1500,41
+89,CoCrFeMnNi,Co20-Cr20-Fe20-Mn20-Ni20,Criogenico,Fusion por levitacion magnetica+ laminado en caliente + recocido 1073 K por 30 min - estudio a 77 K,FCC,NA,NA,NA,850,1300,55
+90,CoCrFeMnNi,Co20-Cr20-Fe20-Mn20-Ni20,Criogenico,Fusion por levitacion magnetica+ laminado en caliente + recocido 1473 K por 1H - estudio a 77 K,FCC,NA,NA,NA,500,1000,83
+91,CrFeCoNiPd,Cr20-Fe20-C20-Ni20-Pd20,Criogenico,Fucion por arco +homogenizacion a 1200 °C por 24 h + recristalizado de 1150 °C por 1 h - estudio a 77 K,FCC,NA,NA,NA,666,1012,74
+92,CrFeCoNiPd,Cr20-Fe20-C20-Ni20-Pd21,Criogenico,Fucion por arco +homogenizacion a 1200 °C por 24 h + recristalizado de 1150 °C por 20 min - estudio a 77 K,FCC,NA,NA,NA,900,1244,60
+93,40Fe–25Ni–15Cr–10Co–10V,Fe40-Ni25-Cr15-Co10-V10,Criogenico,Fucion por induccion al vacio + homogenizacion 1100°C por 6 h + recocido a 900°C por 10 min,FCC,NA,NA,NA,393,735,44
+94,40Fe–25Ni–15Cr–10Co–10V,Fe40-Ni25-Cr15-Co10-V10,Criogenico,Fucion por induccion al vacio + homogenizacion 1100°C por 6 h + recocido a 900°C por 10 min  - estudio a 77 K,FCC,NA,NA,NA,612.64,1073.97,59.9
+95,Al0.3CoCrFeNi,"Al6,98-Co23,26-Cr23,26-Fe23,26-Ni23,26",HEA,Fusion por arco +  recocido 1100 °C por 1 h,FCC+IM,NA,NA,NA,330,746,64
+96,Al0.3CoCrFeNi,"Al6,98-Co23,26-Cr23,26-Fe23,26-Ni23,26",Criogenico,Fusion por arco +  recocido 1100 °C por 1 h + envegecimiento 600 °C por 24 h  - estudio a 77 K,FCC+IM,NA,NA,NA,700,1400,65
+97,CoCrFeNiMn,Co20-Cr20-Fe20-Mn20-Ni20,Criogenico,Fusion por arco + Homogenizacion - estudio a 77 K,FCC,NA,NA,NA,430,NA,NA
+98,CoCrFeNiMn,Co20-Cr20-Fe20-Mn20-Ni20,Criogenico,Fusion por arco + Homogenizacion+ Recocido 1000 °C por 1 h - estudio a 77 K,FCC,NA,NA,NA,420,NA,NA
+106,Al0.6CoNiFeTi0.4,Al15-Co25-Ni25-Fe25-Ti10,HEA,Aleacion mecanica 45 h + SPS 1000 °C por 6 min,FCC+BCC,NA,712,NA,2732,3172,10
+107,AlCoCrFeNi,Al-Co-Cr-Fe-Ni,HEA,Fusion por arco,BCC,NA,520,NA,1373,3531,24.5
+108,AlCoCrFeNb0.1Ni,Al-Co-Cr-Fe-Nb0.1-Ni,HEA,Fusion por arco,BCC,NA,569,NA,1641,3285,17.2
+109,AlCoCrFeNb0.25Ni,Al-Co-Cr-Fe-Nb0.25-Ni,HEA,Fusion por arco,BCC+IM,NA,668,NA,1959,3008,10.5
+110,AlCoCrFeNb0.5Ni,Al-Co-Cr-Fe-Nb0.5-Ni,HEA,Fusion por arco,BCC+IM,NA,747,NA,2473,3170,4.1
+111,AlCrFeCoNiCu,"Al16,6-Cr16,6-Fe16,6-Co16,6-Ni16,6-Cu16,6",HEA,Fusion por arco,FCC+BCC,NA,NA,NA,1303,2081,24
+112,AlCrFeCoNiCuMn,"Al14,28-Cr14,28-Fe14,28-Co14,28-Cu14,28-Mn14,28",HEA,Fusion por arco,FCC+BCC,NA,NA,NA,1005,1480,15
+113,AlCrFeCoNiCuTi,"Al14,28-Cr14,28-Fe14,28-Co14,28-Cu14,28-Ti14,29",HEA,Fusion por arco,FCC+BCC,NA,NA,NA,1234,1356,9
+114,AlCrFeCoNiCuV,"Al14,28-Cr14,28-Fe14,28-Co14,28-Cu14,28-V14,30",HEA,Fusion por arco,FCC+BCC,NA,NA,NA,1469,1970,16
+117,FeCoCrNiAl0.5+ carbon,"Al10.42-Cr21.38-Fe23.49-Co16,69-Ni19,89-Mo2.51-C2.62",HEA,Fundicion por induccioon al vacio,FCC+IM,NA,NA,NA,659,1093,12.4
+118,Al18Cr21Fe20Co20Ni21,Al18-Cr21-Fe20-Co20-Ni21,HEA,Fusion por arco,BCC,NA,508,NA,380,380,1
+119,"Al15,5Cr22,25Fe20Co20Ni22,25","Al15,5-Cr22,25-Fe20-Co20-Ni22,25",HEA,Fusion por arco,FCC+BCC+IM,NA,518,NA,590,590,2
+120,"Al13Cr23,5Fe20Co20Ni23,5","Al13-Cr23,5-Fe20-Co20-Ni23,5",HEA,Fusion por arco,BCC,NA,386,NA,760,1020,6
+121,"Al10,5Cr24,75Fe20Co20ni24,75","Al10,5-Cr24,75-Fe20-Co20-Ni24,75",HEA,Fusion por arco,FCC+BCC,NA,245,NA,370,790,25
+122,Al23Co15Cr23Cu8Fe15Ni15,Al23-Co15-Cr23-Cu8-Fe15-Ni15,HEA,Induccion al vacio,FCC+BCC+IM,NA,544.5,NA,1260,NA,2.1
+123,AlCoCrFeNi,Al20-Co20-Cr20-Fe20-Ni20,HEA,Aleacion mecanica 5 h + sinterizado por chispa 1200 °C por 20 min,FCC+BCC+IM,7.05,518,NA,1262,3228,29.1
+124,AlCoCrFeNi,"Al20,9-Co19,2-Cr19,1-Fe20,4-Ni20,3",HEA,Aleacion mecanica 60 h + Sinterizado 1173 K por 3 min,FCC+IM,90,153,NA,NA,NA,NA
+125,AlCoCrFeNi,"Al20,9-Co19,2-Cr19,1-Fe20,4-Ni20,4",HEA,Aleacion mecanica 60 h + Sinterizado 1273 K por 3 min,FCC+IM,95,815,140,NA,NA,NA
+128,Al0.3CoCrFeNi,"Al6,7-Co23,1-Cr23,4-Fe23,4-Ni23,4",HEA,Fusion por arco + laminado en frio + recocido 620°C por 50 h,FCC+IM,NA,NA,NA,840,1039,32
+129,Al0.3CoCrFeNi,"Al6,7-Co23,1-Cr23,4-Fe23,4-Ni23,5",HEA,Fusion por arco + laminado en frio + recocido 1150°C por 30 min,FCC,NA,NA,NA,159,410,65
+130,Co20Cr20Fe20Mn20Ni20,"Co20,08-Cr20,06-Fe19,98-Mn19,91-Ni19,97",HEA,Fusion por induccion al vacio + Laminado en caliente 900°C+ homogenizado 1200°C por 2 h,FCC,NA,NA,NA,150,400,62
+131,Co20Cr20Fe34Mn20Ni6,"Co19,84-Cr20,02-Fe34,19-Mn19,97-Ni5,99",HEA,Fusion por induccion al vacio + Laminado en caliente 900°C+ homogenizado 1200°C por 2 h,FCC+HCP,NA,NA,NA,155,545,45
+132,Co20Cr20Fe40Mn20,"Co19,97-Cr19,86-Fe39,96-Mn20,21",HEA,Fusion por induccion al vacio + Laminado en caliente 900°C+ homogenizado 1200°C por 2 h,FCC+HCP,NA,NA,NA,225,650,28
+133,CoCrFeMnNi,"Cr20,7-Mn20,1-Co20-Fe19,9-Ni19,5",HEA,Fusion por levitacion magnetica + laminado en caliente + recocido 650 °C por 30 min,FCC,NA,NA,NA,888,984,21
+134,CoCrFeMnNi,"Cr20,7-Mn20,1-Co20-Fe19,9-Ni19,3",HEA,Fusion por levitacion magnetica + laminado en caliente + recocido 1100 °C por 30 min,FCC,NA,NA,NA,310,690,59
+135,CoCrFeMnNi,"Cr20,7-Mn20,1-Co20-Fe19,9-Ni19,4",HEA,Fusion por levitacion magnetica + laminado en caliente + recocido 1200 °C por 60 min,FCC,NA,NA,NA,220,605,72
+136,CoCrFeMnNi,Cr20-Mn20-Fe20-Co20-Ni20,Criogenico,Fusion por arco + recocido 1473 K por 48 h + laminado en frio - estudio a 77 K,FCC,NA,NA,NA,350,920,83
+137,CoCrFeMnNi,Cr20-Mn20-Fe20-Co20-Ni20,Refractario,Fusion por arco + recocido 1473 K por 48 h + laminado en frio - estudio a 1073 K,FCC,NA,NA,NA,165,515,54
+138,CoCrFeMnNi,Cr20-Mn20-Fe20-Co20-Ni21,HEA,Fusion por arco + recocido 1473 K por 48 h + laminado en frio,FCC,NA,NA,NA,73,195,18
+139,"CoCrFeMnNi-0,93C","(Co20-Cr20-Fe20-Mn20-Ni20)99,07-C0,93",HEA,Fusion por arco + homogenizado 1050°C por 24 h + laminado en frio,FCC,NA,NA,NA,1122,1382,8.6
+140,"CoCrFeMnNi-1,38C","(Co20-Cr20-Fe20-Mn20-Ni20)98,62-C1,38",HEA,Fusion por arco + homogenizado 1050°C por 24 h + laminado en frio,FCC,NA,NA,NA,1142,1563,6.6
+141,"CoCrFeMnNi-1,84C","(Co20-Cr20-Fe20-Mn20-Ni20)98,16-C1,84",HEA,Fusion por arco + homogenizado 1050°C por 24 h + laminado en frio,FCC,NA,NA,NA,1190,1616,4.6
+142,CoCrFeMnNi,Cr20-Mn20-Fe20-Co20-Ni20,HEA,Fusion por arco + homogenizado 1050°C por 24 h + laminado en frio,FCC,NA,NA,NA,1074,1331,8.2
+143,CoCrFeNiCu,Co19Cr19.2Fe19.2Ni19.1Cu23.5,HEA,Fusion al vacio,FCC,NA,744.4,188.5,NA,NA,NA
+144,CoCrFeNiCuAl2.5,Co13Cr12.2Fe12.4Ni13.2Cu17.7Al31.5,HEA,Fusion al vacio,BCC,NA,938.1,174.3,NA,NA,NA
+145,CoCrFeNiMn,Cr20-Mn20-Fe20-Co20-Ni20,HEA,Aleacion mecanica + Sinterizado por plasma de chispa 1150°C por 10 min,FCC,7.819999999999999,402,205.4,1301,2177,0.72
+146,CoCrFeNiMn,Cr20-Mn20-Fe20-Co20-Ni20,HEA,Aleacion mecanica + Sinterizado por plasma de chispa 1150°C por 5 min,FCC,7.8,374,206.8,1023,NA,NA
+147,CoCrFeNiMn,"Co19,92-Cr20,05-Fe20,13-Ni20,01-Mn19,89",HEA,Fusion al vacio,FCC,NA,NA,NA,275,490,52
+148,CoCrFeNiMnC0.05,"Co19,72-Cr19,84-Fe19,83-Ni19,84-Mn19,67-C1,1",HEA,Fusion al vacio,FCC,NA,NA,NA,306,580,61
+149,CoCrFeNiMnC0.1,"Co19,9-Cr20,14-Fe19,11-Ni19,53-Mn19,36-C1,96",HEA,Fusion al vacio,FCC,NA,NA,NA,400,658,47
+150,CoCrFeNiMnC0.15,"Co14,46-Cr19,07-Fe19,01-Ni20,05-Mn19,36-C3,05",HEA,Fusion al vacio,FCC,NA,NA,NA,470,620,20
+151,CoCrFeNiMnC0.2,"Co19,34-Cr19,09-Fe18,92-Ni19,56-Mn19,24-C3,85",HEA,Fusion al vacio,FCC,NA,NA,NA,650,738,12
+152,CoCrFeNiMn,"Co19,1-Cr20-Fe20,2-Ni16,6-Mn19,2-Al0,6-C0,9-Si0,3-S0,1",HEA,Sintesis autopropagante a alta temperatura,FCC,NA,150,NA,159,362,38.7
+153,CoCrFeNiMn,"Co19,1-Cr20-Fe20,2-Ni16,6-Mn19,2-Al0,6-C0,9-Si0,3-S0,2",HEA,Sintesis autopropagante a alta temperatura + soldadas con rayo láser,FCC,NA,205,NA,164,349,36.7
+154,CoCrFeNi,"Co24,77-Cr26,14-Fe23,06-Ni26,03 en wt%",HEA,Pulvimetalurgia,FCC,NA,NA,221,250,650,51
+155,CoCrFeNiMo0.2,"Co22,83-+Cr24,09-Fe21,25-Ni23,99-Mo7,84 en wt%",HEA,Pulvimetalurgia,FCC,NA,NA,228,375,780,55
+157,CoCrNi,Co33-Cr33-Ni33,MEA,Fusion por induccion al vacio + Homogenizado a 110°C por 6 h + laminado en frio + recristalizacion a 900 °C por 1 h,FCC,NA,233,NA,380,900,68
+158,CoCrNi,Co33-Cr33-Ni33,MEA,Fusion por induccion al vacio + Homogenizado a 110°C por 6 h + laminado en frio + recristalizacion a 900 °C por 1 h + torsión de alta presión (HPT),FCC,NA,610,NA,1880,2170,4
+159,CoCrNi,Co33-Cr33-Ni33,Criogenico,Fusion por induccion al vacio + Homogenizado a 110°C por 6 h + laminado en frio + recristalizacion a 600 °C por 1 h + torsión de alta presión (HPT) - estudio a 77 K,FCC,NA,NA,NA,1975,2054,27
+160,CoCrNi,Co33-Cr33-Ni33,Criogenico,Fusion por induccion al vacio + Homogenizado a 110°C por 6 h + laminado en frio + recristalizacion a 700 °C por 1 h + torsión de alta presión (HPT) - estudio a 77 K,FCC,NA,NA,NA,1363,1577,50
+161,CoCrNi,Co33-Cr33-Ni33,Criogenico,Fusion por induccion al vacio + Homogenizado a 110°C por 6 h + laminado en frio + recristalizacion a 900 °C por 1 h + torsión de alta presión (HPT) - estudio a 77 K,FCC,NA,NA,NA,795,1228,71
+162,CoCrNi–3W,(Co33-Cr33-Ni33)97-W3,MEA,Fusion por arco+Homogenizado 1473 K por 24 h+ laminado en frio,FCC,NA,190,NA,1000,1300,44
+163,Cr15Fe20Co35Ni20Mo10,Cr15-Fe20-Co35-Ni20-Mo10,HEA,Fusion por arco + homogenizacion 1200°C por 48 h laminado en caliente + laminado en frio + recocido 800°C por 1 h con enfriamiento por aire,FCC+IM,NA,NA,NA,1311,1410,12.1
+164,Cr15Fe20Co35Ni20Mo10,Cr15-Fe20-Co35-Ni20-Mo10,HEA,Fusion por arco + homogenizacion 1200°C por 48 h laminado en caliente + laminado en frio + recocido 850°C por 5 min con enfriamiento por agua,FCC+IM,NA,NA,NA,1212,1360,14.9
+165,Cr15Fe20Co35Ni20Mo10,Cr15-Fe20-Co35-Ni20-Mo10,HEA,Fusion por arco + homogenizacion 1200°C por 48 h laminado en caliente + laminado en frio + recocido 900°C por 5 min con enfriamiento por agua,FCC+IM,NA,NA,NA,1028,1249,18.3
+166,Cr15Fe20Co35Ni20Mo10,Cr15-Fe20-Co35-Ni20-Mo10,HEA,Fusion por arco + homogenizacion 1200°C por 48 h laminado en caliente + laminado en frio + recocido 1000°C por 5 min con enfriamiento por agua,FCC+IM,NA,NA,NA,879,1194,25.4
+167,Cr15Fe20Co35Ni20Mo10,Cr15-Fe20-Co35-Ni20-Mo10,HEA,Fusion por arco + homogenizacion 1200°C por 48 h laminado en caliente + laminado en frio + recocido 1000°C por 1 h con enfriamiento por aire,FCC+IM,NA,NA,NA,799,1127,28.2
+168,Cr15Fe20Co35Ni20Mo10,Cr15-Fe20-Co35-Ni20-Mo10,HEA,Fusion por arco + homogenizacion 1200°C por 48 h laminado en caliente + laminado en frio + recocido 1150°C por 1 h con enfriamiento por aire,FCC,NA,NA,NA,350,918,62.4
+169,Cr19.68Mn19.68Fe19.68Co19.68Ni19.68Nb0.8C0.8,Cr19.68-Mn19.68-Fe19.68-Co19.68-Ni19.68-Nb0.8-C0.8,HEA,Fusion por arco + homogenizado 1473 K por 24 h + homogenizado 1523 K por 2 h con enfriamiento por agua + laminado en frio + recocido 1073 K por 1 h,FCC,NA,NA,NA,380,615,47.5
+170,Cr20Mn20Fe20Co20Ni20,Cr20-Mn20-Fe20-Co20-Ni20,HEA,Fusion por arco + homogenizado 1473 K por 24 h + homogenizado 1523 K por 2 h con enfriamiento por agua + laminado en frio + recocido 1073 K por 1 h,FCC,NA,NA,NA,740,905,35
+171,FeCoNiCrMn,Fe19-Co20-Ni22-Cr20-Mn19,HEA,Fundicion por induccion,FCC,NA,296,190,NA,NA,NA
+172,FeCoNiCrMneAl,Fe17-Co20-Ni20-Cr19-Mn17-Al8,HEA,Fundicion por induccion,FCC+BCC,NA,336,190,NA,NA,NA
+173,FeCoNiCrMn,"Fe19,78-Co19,94-Ni20,37-Cr19,62-Mn20,29",HEA,Fucion por arco + homogenizacion 1473K por 10h + laminado en frio + recocido 800 °C por 1 h,FCC,NA,NA,NA,325,647,52.3
+174,Fe20Co23Ni17Cr20Mn20,"Fe20,28-Co22,76-Ni16,86-Cr20,33-Mn19,77",HEA,Fucion por arco + homogenizacion 1473K por 10h + laminado en frio + recocido 800 °C por 1 h,FCC,NA,NA,NA,328,658,56
+175,Fe20Co27Ni13Cr20Mn20,"FE19,72-Co26,75-Ni12,78-Cr20,32-Mn20,43",HEA,Fucion por arco + homogenizacion 1473K por 10h + laminado en frio + recocido 800 °C por 1 h,FCC,NA,NA,NA,350,725,59.8
+176,Fe20Co30Ni10Cr20Mn20,"Fe19,95-Co29,78-Ni9,63-Cr20,45-Mn20,19",HEA,Fucion por arco + homogenizacion 1473K por 10h + laminado en frio + recocido 800 °C por 1 h,FCC+HCP,NA,NA,NA,395,810,69
+177,Fe-18Cr-14Ni,"Fe66,6-Cr18,8-Ni14,6",LEA,N/A,FCC,NA,NA,NA,167,483,81
+178,Fe-20Cr-20Ni-20Mn-20Co,"Fe18,2-Cr20,9-Ni20,2-Mn19,8-Co20,9",HEA,N/A,FCC,NA,NA,NA,254,585,53
+179,"Fe-30Mn10Co-10Cr-0,5C","Fe30-Mn10-Co10-Cr10-C0,5",HEA,Fusion por induccion al vacio + homogenizado 1200 °C por 2 h + laminado en frio + recocido 900°C por 3 min,FCC+HCP,NA,NA,NA,500,960,61
+180,Fe30Mn10Cr10Co,"Fe50,37-Mn29,8-Cr9,29-Co10,46",HEA,Fusion por induccion al vacio + laminado en caliente 1273 K + homogenizacion 1473 K por 2 h +  laminado en caliente 1273 K + tratamiento 1073 K por 1 h,FCC,NA,NA,NA,172,733,53.6
+181,Fe38.5Mn20Co20Cr15Si5Cu1.5,Fe38.5-Mn20-Co20-Cr15-Si5-Cu1.5,HEA,Fusion por induccion al vacio,FCC+HCP,NA,NA,NA,850,1126,42
+182,Fe39Mn20Co20Cr15Si5Al1,"Fe40,2-Mn19,7-Co20,5-Cr14,4-Si4,6-Al0,7",HEA,Fusion por induccion al vacio + recocido 650 por 15 min,FCC+HCP,NA,NA,NA,610,1200,52
+183,Fe39Mn20Co20Cr15Si5Al1,"Fe40,2-Mn19,7-Co20,5-Cr14,4-Si4,6-Al0,7",HEA,Fusion por induccion al vacio + recocido 650 por 30 min,FCC+HCP,NA,NA,NA,700,1630,43
+184,Fe39Mn20Co20Cr15Si5Al1,"Fe40,2-Mn19,7-Co20,5-Cr14,4-Si4,6-Al0,7",HEA,Fusion por induccion al vacio + recocido 850 por 15 min,FCC+HCP,NA,NA,NA,520,1040,45
+185,Fe39Mn20Co20Cr15Si5Al1,"Fe40,2-Mn19,7-Co20,5-Cr14,4-Si4,6-Al0,7",HEA,Fusion por induccion al vacio + recocido 850 por 30 min,FCC+HCP,NA,NA,NA,490,980,50.5
+186,Fe40.4Ni11.3Mn34.8Al7.5Cr6,Fe40.4-Ni11.3-Mn34.8-Al7.5-Cr6,HEA,Fusion por arco,FCC,NA,NA,NA,159,535,40.8
+187,Fe40.4Ni11.3Mn34.8Al7.5Cr6 - C0.07,"Fe41,83-Ni10,13-Mn35,25-Al7,2-Cr5,52-C0,07",HEA,Fusion por arco,FCC,NA,NA,NA,171,674,51.6
+188,Fe40.4Ni11.3Mn34.8Al7.5Cr6 - C0.16,"Fe40,6-Ni11,58-Mn35,55-Al7,10-Cr5,01-C0,16",HEA,Fusion por arco,FCC,NA,NA,NA,181,713,52.2
+189,Fe40.4Ni11.3Mn34.8Al7.5Cr6 - C0.30,"Fe44,85-Ni10,05-Mn32,25-Al7,35-Cr5,2-C0,3",HEA,Fusion por arco,FCC,NA,NA,NA,208,762,48.2
+190,Fe40.4Ni11.3Mn34.8Al7.5Cr6 - C0.55,"Fe41,08-Ni10,21-Mn35,46-Al7,39-Cr5,31-C0,55",HEA,Fusion por arco,FCC,NA,NA,NA,274,960,52.3
+191,"Fe40.4Ni11.3Mn34.8Al7.5Cr6 - C1,10","Fe39,93-Ni10,35-Mn35,67-Al7,4-Cr5,55-C1,1",HEA,Fusion por arco,FCC,NA,NA,NA,355,1174,49.5
+192,Fe40.4Ni11.3Mn34.8Al7.5Cr6 + 0.5 at% B,Fe40.4Ni11.3Mn34.8Al7.5Cr6 + 0.5 at% B,HEA,Fusion por arco,FCC,NA,NA,NA,174,455,37
+193,Fe40.4Ni11.3Mn34.8Al7.5Cr6 + 1 at% B,Fe40.4Ni11.3Mn34.8Al7.5Cr6 + 1 at% B,HEA,Fusion por arco,FCC,NA,NA,NA,186,519,31.4
+194,Fe40Mn40Co10Cr10 + 1.0Mo (%Wt),Fe40Mn40Co10Cr10 + 1.0Mo (%Wt),HEA,Fusion por arco,FCC,NA,NA,NA,270,546,52
+195,"Fe40Mn40Co10Cr10 + 0,75C (%Wt)","Fe40Mn40Co10Cr10 + 0,75C (%Wt)",HEA,Fusion por arco,FCC,NA,NA,NA,400,703,44
+196,"Fe40Mn40Co10Cr10 + 1.0Mo + 0,75C(%Wt)","Fe40Mn40Co10Cr10 + 1.0Mo + 0,75C(%Wt)",HEA,Fusion por arco,FCC,NA,NA,NA,413,774,50
+197,Fe40Mn40Co10Cr10 + 1.0C (%Wt),Fe40Mn40Co10Cr10 + 1.0C (%Wt),HEA,Fusion por arco,FCC,NA,NA,NA,520,818,40
+198,Fe40Mn40Co10Cr10 + 1.0Mo+1.0C (%Wt),Fe40Mn40Co10Cr10 + 1.0Mo+1.0C (%Wt),HEA,Fusion por arco,FCC,NA,NA,NA,560,1024,50
+199,(Fe40Mn40Co10Cr10),(Fe40Mn40Co10Cr10),HEA,Fusion por arco + refundicion 5 veces,FCC,NA,143,NA,213,471,57.7
+200,"(Fe40Mn40Co10Cr10)100−2,2 C2,2","(Fe40Mn40Co10Cr10)100−2,2 C2,3",HEA,Fusion por arco + refundicion 5 veces,FCC,NA,213,NA,310,650,62.9
+201,"(Fe40Mn40Co10Cr10)100−3,3 C3,3","(Fe40Mn40Co10Cr10)100−3,3 C3,4",HEA,Fusion por arco + refundicion 5 veces,FCC,NA,246,NA,422,787,77.8
+202,"(Fe40Mn40Co10Cr10)100−4,4 C4,4","(Fe40Mn40Co10Cr10)100−4,4 C4,5",HEA,Fusion por arco + refundicion 5 veces,FCC,NA,270,NA,467,836,54.7
+203,"(Fe40Mn40Co10Cr10)100−6,6 C6,6","(Fe40Mn40Co10Cr10)100−6,6 C6,7",HEA,Fusion por arco + refundicion 5 veces,FCC,NA,343,NA,620,946,26.5
+204,"(Fe40Mn40Co10Cr10)100−8,9 C8,9","(Fe40Mn40Co10Cr10)100−8,9 C8,10",HEA,Fusion por arco + refundicion 5 veces,FCC,NA,395,NA,750,955,5.8
+205,Fe42Mn28Cr15Co10Si5,Fe42-Mn28-Cr15-Co10-Si5,HEA,Fusion por induccion al vacio +  deformacion mediante FSP,FCC+HCP,NA,NA,NA,957,1158,11.6
+206,Fe42Ni12Mn36Al8Ti2,Fe42-Ni12-Mn36-Al8-Ti3,HEA,Fusion por arco + laminado en frio + recocido 1073 K por 8 h,FCC+IM,NA,NA,NA,509,830,19
+207,Fe36Ni18Mn33Al13,Fe36-Ni18-Mn33-Al14,HEA,Fusion por arco,FCC+IM,NA,186.5,NA,270,578,22.8
+208,Fe36Ni18Mn33Al13Ti2,Fe36-Ni18-Mn33-Al13-Ti2,HEA,Fusion por arco,FCC+IM,NA,279.7,NA,532,876,13.9
+209,Fe36Ni18Mn33Al13Ti2,Fe36-Ni18-Mn33-Al13-Ti2,HEA,Fusion por arco + recocido 823 K por 24 h,FCC+IM,NA,312.9,NA,563,891,13.7
+210,Fe36Ni18Mn33Al13Ti4,Fe36-Ni18-Mn33-Al13-Ti4,HEA,Fusion por arco,FCC+IM,NA,374.7,NA,953,1145,2.3
+211,Fe36Ni18Mn33Al13Ti4,Fe36-Ni18-Mn33-Al13-Ti4,HEA,Fusion por arco + recocido 823 K por 24 h,FCC+IM,NA,404.6,NA,996,1144,1.1
+212,Fe36Ni18Mn33Al13Ti4,Fe36-Ni18-Mn33-Al13-Ti4,HEA,Fusion por arco + recocido 1173 K por 24 h,FCC+IM,NA,274.1,NA,511,790,5.6
+213,CoFeNi,Co33-Fe33-Ni33,LEA,Fusion por arco + enfriamiento por agua,FCC,8.5,125,NA,204,NA,NA
+214,CoFeNi,Co33-Fe33-Ni33,LEA,Fusion por arco + enfriamiento por agua,FCC,8.5,125,NA,209,NA,NA
+215,CoFeNi,Co33-Fe33-Ni33,LEA,Fusion por arco + enfriamiento por agua,FCC,8.5,NA,207,211,513,31
+216,CoCrNi,Co33-Cr33-Ni34,LEA,Fusion por arco + enfriamiento por agua,FCC,8.3,NA,229,300,860,60
+217,CoMnNi,Co33-Mn33-Ni35,LEA,Fusion por arco + enfriamiento por agua,FCC,8.4,NA,202,231,653,38
+218,FeMnNi,Fe33-Mn33-Ni33,LEA,Fusion por arco + enfriamiento por agua,FCC,8.1,NA,203,221,602,36
+219,CoCrFeNi,Co25-Cr25-Fe25-Ni25,MEA,Fusion por arco + enfriamiento por agua,FCC,8.2,NA,225,274,708,39
+220,CoCrMnNi,Co25-Cr25-Mn25-Ni26,MEA,Fusion por arco + enfriamiento por agua,FCC,8.1,NA,222,282,694,44
+221,CoFeMnNi,Co25-Fe25-Mn25-Ni27,MEA,Fusion por arco + enfriamiento por agua,FCC,8.2,NA,205,170,550,41
+222,CoFeNiSi0.25,"Fe30,89-Co30,52-Ni30,27-Si8,31",HEA,Fusion por arco + enfriamiento por agua,FCC,7.7,149,194,196,NA,NA
+223,CoFeNiSi0.5,"Fe27,73-Co28,16-Ni27,28-Si16,83",HEA,Fusion por arco + enfriamiento por agua,FCC+IM,7.1,287,NA,476,NA,NA
+224,CoFeNiSi0.75,"Fe26,31-Co25,72-Ni26,06-Si21,91",HEA,Fusion por arco + enfriamiento por agua,FCC+IM,6.6,570,NA,1301,NA,NA
+225,Al0.25CoFeNi,"Fe30,45-Co30,73-Ni29,19-Al9,63",HEA,Fusion por arco + enfriamiento por agua,FCC,7.9,138,196,158,NA,NA
+226,Al0.5CoFeNi,"Fe-27,81-Co27,49-Ni27,28-Al17,42",HEA,Fusion por arco + enfriamiento por agua,FCC + BCC,7.4,212,187,346,NA,NA
+227,Al0.75CoFeNi,"Fe26,13-Co25,85-Ni25,15-Al22,87",HEA,Fusion por arco + enfriamiento por agua,FCC + BCC,7,385,179,794,NA,NA
+228,CoCrFeNi,Cr25-Fe25-Co25-Ni25,HEA,Fusion por arco,FCC,8.2,NA,225,148,413,48
+229,CoCrFeNb0.103Ni,"Cr24,37-Fe24,37-Co24,37-Ni24,37-Nb2,52",HEA,Fusion por arco,FCC+IM,8.2,NA,NA,318,622,19
+230,CoCrFeNb0.155Ni,"Cr24,07-Fe24,07-Co24,07-Ni24,07-Nb3,72",HEA,Fusion por arco,FCC+IM,8.2,NA,NA,322,744,23
+231,CoCrFeNb0.206Ni,"Cr23,78-Fe23,78-Co23,78-Ni23,78-Nb4,88",HEA,Fusion por arco,FCC+IM,8.2,NA,NA,403,807,9
+232,CoCrFeNb0.309Ni,"Cr23,21-Fe23,21-Co23,21-Ni23,21-Nb7,16",HEA,Fusion por arco,FCC+IM,8.2,NA,NA,479,879,4
+233,CoCrFeNb0.412Ni,"Cr22,67-Fe22,67-Co22,67-Ni22,67-Nb9,32",HEA,Fusion por arco,FCC+IM,8.2,NA,NA,638,1004,1
+234,CoCrFeMo0.5Ni,"Cr22,2-Fe22,2-Co22,2-Ni22,2-Mo11,2",HEA,Fusion por arco,FCC+IM,8.5,210,NA,NA,NA,NA
+235,Al0.5CoCrFeMo0.5Ni,Al10-Cr20-Fe20-Co20-Ni20-Mo10,HEA,Fusion por arco,FCC+IM,7.7,425,NA,NA,NA,NA
+236,Al1.5CoCrFeMo0.5Ni,"Al25,0-Cr16,7-Fe16,7-Co16,7-Ni16,7-Mo8,2",HEA,Fusion por arco,BCC+IM,6.6,655,NA,NA,NA,NA
+237,Al2CoCrFeMo0.5Ni,"Al30,8-Cr15,4-Fe15,4-Co15,4-Ni15,4-Mi7,6",HEA,Fusion por arco,BCC,6.3,605,185,NA,NA,NA
+238,AlCoCrFeMo0.5Ni,"Al18,2-Cr18,2-Fe18,2-Co18,2-Ni18,2-Mo9,0",HEA,Fusion por arco,BCC+IM,7.1,715,NA,NA,NA,NA
+239,CoCrFeNiTi,Co20-Cr20-Fe20-Ni20-Ti20,HEA,Fusion por arco + enfriamiento por agua,FCC,7.2,NA,135,NA,2020,9
+240,Al0.5CoCrFeNiTi,"Co18,2-Cr18,2-Fe18,2-Ni18,2-Ti18,2-Al9,0",HEA,Fusion por arco + enfriamiento por agua,BCC + Im,606,NA,107,NA,1600,10
+241,AlCoCrFeNiTi,"Co16,6-Cr16,6-Fe16,6-Ni16,6-Ti16,6-Al16,6",HEA,Fusion por arco + enfriamiento por agua,BCC + Im,6.2,NA,148,NA,2280,6
+242,Al1.5CoCrFeNiTi,"Co15,4-Cr15,4-Fe15,4-Ni15,4-Ti15,4-Al23",HEA,Fusion por arco + enfriamiento por agua,BCC,5.9,NA,133,NA,2110,10
+243,Al2CoCrFeNiTi,"Co14,3-Cr14,3-Fe14,3-Ni14,3-Ti14,3-Al28,5",HEA,Fusion por arco + enfriamiento por agua,BCC,5.6,NA,94,NA,1030,5
+244,Co1.5CrFeNi1.5Ti0.5,Co27.3-Cr18.2-Fe18.2-Ni27.3-Ti9.1,HEA,Fusion por arco + Homogenizado 1100°C por 4 horas + envegecido 800°C por 10 h,FCC,7.8,509,211,NA,NA,NA
+245,Co1.5CrFeNi1.5Ti,Co25-Cr16.7-Fe16.7-Ni25-Ti16.7,HEA,Fusion por arco + Homogenizado 1100°C por 4 horas + envegecido 800°C por 10 h,FCC+IM,7.4,654,NA,NA,NA,NA
+246,Al0.2Co1.5CrFeNi1.5Ti0.5,Al3.5-Co26.3-Cr17.5-Fe17.5-Ni26.3-Ti8.8,HEA,Fusion por arco + Homogenizado 1100°C por 4 horas + envegecido 800°C por 10 h,FCC,7.6,487,206,NA,NA,NA
+247,Al0.2Co1.5CrFeNi1.5Ti,Al3.2-Co24.2-Cr16.1-Fe16.1-Ni24.2-Ti16.1,HEA,Fusion por arco + Homogenizado 1100°C por 4 horas + envegecido 800°C por 10 h,FCC+IM,7.2,717,NA,NA,NA,NA
+248,FeNiCrCo0.3Al0.7,"Fe25-Ni25-Cr25-Co7,5-Al17,5",HEA,Aleacion mecanica 45 h + SPS 600 °C por 4 min + 1000 °C por 75 °Cmin^-1,FCC + BCC+IM,6.8,624,NA,2033,2635,8
+249,Al1.5CoCrFeNi,"Fe18,2-Ni18,2-Cr18,2-Co18,2-Al27,2",HEA,Fabricacion en horno frio de cobre con velocidad de enfriamienrto de 104 K/s,BCC,6.2,402,183,NA,NA,NA
+250,Al2CoCrFeNi,"Fe16,7-Ni16,7-Co16,7-Cr16,7-Al33,2",HEA,Fabricacion en horno frio de cobre con velocidad de enfriamienrto de 104 K/s,BCC,5.9,432,173,NA,NA,NA
+251,Al2.5CoCrFeNi,"Fe15,4-Ni14,4-Cr15,4-Co15,4-Al38,4",HEA,Fabricacion en horno frio de cobre con velocidad de enfriamienrto de 104 K/s,BCC,5.6,487,165,NA,NA,NA
+252,Al3CoCrFeNi,"Fe14,3-Ni14,3-Cr14,3-Co14,3-Al42,8",HEA,Fabricacion en horno frio de cobre con velocidad de enfriamienrto de 104 K/s,BCC,5.3,506,158,NA,NA,NA
+253,CrCuFeMnNi,Fe20-Ni20-Cr20-Cu20-Mn20,HEA,Fabricacion en horno frio de cobre con velocidad de enfriamienrto de 104 K/s,FCC + BCC,8.1,296,204,NA,NA,NA
+254,CrCuFeMoNi,Fe20-Ni20-Cr20-Cu20-Mo20,HEA,Fabricacion en horno frio de cobre con velocidad de enfriamienrto de 104 K/s,FCC,8.7,263,230,NA,NA,NA
+255,AlCrCuFeNi,Fe20-Ni20-Cr20-Cu20-Al20,HEA,Fabricacion en horno frio de cobre con velocidad de enfriamienrto de 104 K/s,FCC + BCC,6.8,342,178,NA,NA,NA
+256,AlCoCrFeNi,Al20-Co20-Cr20-Fe20-Ni20,HEA,Fusion por arco al vacio,BCC,6.7,NA,194,1251,2004,33
+257,AlCoCrFeNi,Al-Co-Cr-Fe-Ni,HEA,Fusión por arco,BCC,6.7,NA,NA,1051,NA,NA
+258,"AlCoCrFeNiMo0,1","Al-Co-Cr-Fe-Ni-Mo0,1",HEA,Fusión por arco,BCC,6.8,NA,NA,1804,2280,9.1
+259,"AlCoCrFeNiMo0,2","Al-Co-Cr-Fe-Ni-Mo0,2",HEA,Fusión por arco,BCC,6.9,NA,NA,2456,2953,3.4
+260,"AlCoCrFeNiMo0,3","Al-Co-Cr-Fe-Ni-Mo0,3",HEA,Fusión por arco,BCC,7,NA,NA,2649,3208,3.3
+261,"AlCoCrFeNiMo0,4","Al-Co-Cr-Fe-Ni-Mo0,4",HEA,Fusión por arco,BCC,7,NA,NA,2670,3161,3
+262,"AlCoCrFeNiMo0,5","Al-Co-Cr-Fe-Ni-Mo0,5",HEA,Fusión por arco,BCC,7.1,NA,NA,2757,3036,2.5
+263,AlCoCrFeNi,Al-Co-Cr-Fe-Ni,HEA,Fusión por arco,BCC,6.7,NA,NA,1110,NA,NA
+264,"AlCoCrFeNiSi0,2","Al-Co-Cr-Fe-Ni-Si0,2",HEA,Fusión por arco,BCC,NA,NA,NA,1265,2173,13.76
+265,"AlCoCrFeNiSi0,4","Al-Co-Cr-Fe-Ni-Si0,4",HEA,Fusión por arco,BCC,NA,NA,NA,1481,2444,13.38
+266,"AlCoCrFeNiSi0,6","Al-Co-Cr-Fe-Ni-Si0,6",HEA,Fusión por arco,BCC,NA,NA,NA,1834,2195,2.56
+267,"AlCoCrFeNiSi0,8","Al-Co-Cr-Fe-Ni-Si0,8",HEA,Fusión por arco,BCC,NA,NA,NA,2179,2664,1.77
+268,"AlCoCrFeNiSi01,0",Al-Co-Cr-Fe-Ni-Si,HEA,Fusión por arco,BCC,NA,NA,NA,2411,2950,1.1700000000000002
+269,AlCoCrFeNi,Al-Co-Cr-Fe-Ni,HEA,Fusión por arco,BCC,NA,NA,125.1,1138,NA,NA
+270,"AlCoCrFeNiC0,1","Al-Co-Cr-Fe-Ni-C0,1",HEA,Fusión por arco,BCC+IM,6.7,NA,213.2,957,2550,10.52
+271,"AlCoCrFeNiC0,2","Al-Co-Cr-Fe-Ni-C0,2",HEA,Fusión por arco,BCC+IM,6.8,NA,150.9,906,2386,8.68
+272,"AlCoCrFeNiC0,3","Al-Co-Cr-Fe-Ni-C0,3",HEA,Fusión por arco,BCC+IM,6.8,NA,137.2,867,2178,7.819999999999999
+273,"AlCoCrFeNiC0,4","Al-Co-Cr-Fe-Ni-C0,4",HEA,Fusión por arco,BCC+IM,6.8,NA,156.1,1056,2375,6.67
+274,"AlCoCrFeNiC0,5","Al-Co-Cr-Fe-Ni-C0,5",HEA,Fusión por arco,BCC+IM,6.9,NA,180.8,1060,2250,5.6
+275,"AlCoCrFeNiC1,0",Al-Co-Cr-Fe-Ni-C,HEA,Fusión por arco,BCC+IM,6.8,NA,75.1,1251,2166,7.04
+276,"AlCoCrFeNiC1,5","Al-Co-Cr-Fe-Ni-C1,5",HEA,Fusión por arco,BCC+IM,7,NA,72.5,1255,2083,5.54
+277,AlCo0.5CrFeMo0.5Ni,Al20-Cr20-Fe20-Co10-Ni10-Mo10,HEA,Fusion por arco bajo atmosfera de argon,BCC+IM,7,801,NA,NA,NA,NA
+278,AlCoCrFeMo0.5Ni,"Al18,2-Cr18,2-Fe18,2-Co18,2-Ni18,2-Mo9,0",HEA,Fusion por arco bajo atmosfera de argon,BCC+IM,7.1,796,NA,NA,NA,NA
+279,AlCo1.5CrFeMo0.5Ni,"Al16,7-Cr16,7-Fe16,7-Co25,0-Ni16,7-Mo8,2",HEA,Fusion por arco bajo atmosfera de argon,FCC+BCC+IM,801,741,NA,NA,NA,NA
+280,AlCo2CrFeMo0.5Ni,"Al15,4-Cr15,4-Fe15,4-Co30,8-Ni15,4-Mo7,6",HEA,Fusion por arco bajo atmosfera de argon,BCC+IM,801,586,NA,NA,NA,NA
+281,AlCoCrFe0.6Mo0.5Ni,"Al19,6-Cr19,6-Fe11,8-Co19,6-Ni19,6-Mo9,8",HEA,Fusion por arco bajo atmosfera de argon,BCC,7,755,NA,NA,NA,NA
+282,AlCoCrFeMo0.5Ni,"Al18,2-Cr18,2-Fe18,2-Co18,2-Ni18,2-Mo9,1",HEA,Fusion por arco bajo atmosfera de argon,BCC,7.1,754,NA,NA,NA,NA
+283,AlCoCrFe1.5Mo0.5Ni,"Al16,7-Cr16,7-Fe25-Cr16,7-Ni16,7-Mo8,3",HEA,Fusion por arco bajo atmosfera de argon,BCC,7.2,635,NA,NA,NA,NA
+284,AlCoCrFe2Mo0.5Ni,"Al15,4-Cr15,4-Fe30,8-Co15,4-Ni15,4-Mo7,7",HEA,Fusion por arco bajo atmosfera de argon,BCC,7.2,639,NA,NA,NA,NA
+285,AlCoCrFeMo0.5Ni0,"Al22,2-Cr22,2-Fe22,2-Co22,2-Mo11,2",HEA,Fusion por arco,IM,7,853,NA,NA,NA,NA
+286,AlCoCrFeMo0.5Ni0.5,Al20-Cr20-Fe20-Co20-Ni10-Mo10,HEA,Fusion por arco,IM,7,708,NA,NA,NA,NA
+287,AlCoCrFeMo0.5Ni1.0,"Al18,2-Cr18,2-Fe18,2-Co18,2-Ni18,2-Mo9,0",HEA,Fusion por arco,IM,7.1,730,NA,NA,NA,NA
+288,AlCoCrFeMo0.5Ni1.5,"Al16,7-Cr16,7-Fe16,7-Co16,7-Ni25-Mo8,2",HEA,Fusion por arco,FCC+IM,7.2,586,NA,NA,NA,NA
+289,AlCoCrFeMo0.5Ni2.0,"Al15,4-Cr15,4-Fe15,4-Co15,4-Ni30,8-Mo7,6",HEA,Fusion por arco,FCC+IM,7.4,395,NA,NA,NA,NA
+290,Ti0.5CrFeCoNiCu,Ti0.5-Cr-Fe-Co-Ni-Cu,HEA,Fusion por arco + moldeo por succion,FCC,NA,NA,92.73,700,1650,28.7
+291,"Ti0.5CrFeCoNiAl0,25Cu0,75","Ti0.5-Cr-Fe-Co-Ni-Al0,25-Cu0,76",HEA,Fusion por arco + moldeo por succion,FCC,NA,NA,102.85,750,1970,38.5
+292,"Ti0.5CrFeCoNiAl0,5Cu0,5","Ti0.5-Cr-Fe-Co-Ni-Al0,5-Cu0,6",HEA,Fusion por arco + moldeo por succion,FCC+BCC,NA,NA,160.54,1580,2389,17.4
+293,"Ti0.5CrFeCoNiAl0,75Cu0,25","Ti0.5-Cr-Fe-Co-Ni-Al0,75-Cu0,26",HEA,Fusion por arco + moldeo por succion,FCC+BCC,NA,NA,164.14,1900,2697,12
+294,AlCoCrFeNi,Al-Co-Cr-Fe-Ni,HEA,Fusion por arco + refundicion por vacio e inyeccion,BCC,NA,NA,127,1500,2830,26.9
+295,"AlCoCrFeNiTi0,5","Al-Co-Cr-Fe-Ni-Ti0,6",HEA,Fusion por arco + refundicion por vacio e inyeccion,BCC,NA,NA,177.7,2260,3140,23.3
+296,AlCoCrFeNiTi,Al-Co-Cr-Fe-Ni-Ti,HEA,Fusion por arco + refundicion por vacio e inyeccion,BCC,NA,NA,90.1,1860,2580,8.8
+297,"AlCoCrFeNiTi1,5","Al-Co-Cr-Fe-Ni-Ti1,6",HEA,Fusion por arco + refundicion por vacio e inyeccion,BCC+IM,NA,NA,159.8,2220,2720,5.3
+298,AlCoFeNiTiVZr,Al-Co-Cr-Fe-Ni-Ti-V-Zr,HEA,Fusion por arco,BCC+IM,6.2,790,143,NA,NA,NA
+299,AlCoCrFeNiTiVZr,Al-Co-Fe-Ni-Ti-V-Zr,HEA,Fusion por arco,BCC+IM,6.3,780,NA,NA,NA,NA
+300,FeMoNiTiVZr,Fe-Mo-Ni-Ti-V-Zr,HEA,Fusion por arco,BCC+IM,7.1,740,168,NA,NA,NA
+301,CoCrCuFeNiTiVZr,Co-Cr-Cu-Fe-Ni-Ti-V-Zr,HEA,Fusion por arco,FCC+BCC+IM,7.1,680,193,NA,NA,NA
+302,CoCrFeMoNiTiVZr,Co-Cr-Fe-Mo-Ni-Ti-V-Zr,HEA,Fusion por arco,BCC+IM,7.3,850,NA,NA,NA,NA
+303,CoCuFeNiTiVZr,Co-Cu-Fe-Ni-Ti-V-Zr,HEA,Fusion por arco,FCC+BCC,7.1,630,NA,NA,NA,NA
+304,CoFeMoNiTiVZr,Co-Fe-Mo-Ni-Ti-V-Zr,HEA,Fusion por arco,FCC+BCC+IM,7.3,790,NA,NA,NA,NA
+305,CuFeNiTiVZr,Cu-Fe-Ni-Ti-V-Zr,HEA,Fusion por arco,FCC+BCC+IM,6.8,590,142,NA,NA,NA
+306,AlFeNiTiVZr,Al-Fe-Ni-Ti-V-Zr,HEA,Fusion por arco,BCC,5.9,800,132,NA,NA,NA
+307,CoCrFeMnNi,Co-Cr-Fe-Mn-Ni,HEA,Fusion por arco,FCC,8,180,219,208,NA,62
+308,Al0.10CoCrFeMnNi,Al0.10-Co-Cr-Fe-Mn-Ni,HEA,Fusion por arco,FCC,7.9,180,216,NA,NA,NA
+309,Al0.20CoCrFeMnNi,Al0.20-Co-Cr-Fe-Mn-Ni,HEA,Fusion por arco,FCC,7.7,171,214,220,NA,56
+310,Al0.38CoCrFeMnNi,Al0.38Co-Cr-Fe-Mn-Ni,HEA,Fusion por arco,FCC,7.5,182,209,244,NA,45
+311,Al0.43CoCrFeMnNi,Al0.43-Co-Cr-Fe-Mn-Ni,HEA,Fusion por arco,FCC+BCC,7.4,183,208,285,NA,35
+312,Al0.49CoCrFeMnNi,Al0.49-Co-Cr-Fe-Mn-Ni,HEA,Fusion por arco,FCC+BCC,7.4,220,206,331,NA,29
+313,Al0.56CoCrFeMnNi,Al0.56-Co-Cr-Fe-Mn-Ni,HEA,Fusion por arco,FCC+BCC,7.3,278,204,526,NA,16
+314,Al0.62CoCrFeMnNi,Al0.62-Co-Cr-Fe-Mn-Ni,HEA,Fusion por arco,FCC+BCC,7.2,405,203,833,NA,5
+315,Al0.68CoCrFeMnNi,Al0.68-Co-Cr-Fe-Mn-Ni,HEA,Fusion por arco,FCC+BCC,7.2,486,202,NA,NA,NA
+316,Al0.75CoCrFeMnNi,Al0.75-Co-Cr-Fe-Mn-Ni,HEA,Fusion por arco,FCC+BCC,7.1,530,200,NA,NA,NA
+317,Al0.81CoCrFeMnNi,Al0.81-Co-Cr-Fe-Mn-Ni,HEA,Fusion por arco,FCC+BCC,7,539,199,NA,NA,NA
+318,Al0.88CoCrFeMnNi,Al0.88-Co-Cr-Fe-Mn-Ni,HEA,Fusion por arco,FCC+BCC,7,533,197,NA,NA,NA
+319,Al0.95CoCrFeMnNi,Al0.95-Co-Cr-Fe-Mn-Ni,HEA,Fusion por arco,FCC+BCC,6.9,535,196,NA,NA,NA
+320,Al1.25CoCrFeMnNi,Al1.25-Co-Cr-Fe-Mn-Ni,HEA,Fusion por arco,BCC,6.6,539,190,NA,NA,NA
+321,Co-Cr-Fe-Ni,Co-Cr-Fe-Ni,MEA,Fusion por arco,FCC,NA,160,NA,140,488,83
+322,CoCrFeNiMn,Co-Cr-Fe-Ni-Mn,HEA,Fusion por arco,FCC,NA,170,NA,215,491,71
+323,CoCrFeNiV,Co-Cr-Fe-Ni-V,HEA,Fusion por arco,FCC,NA,524,NA,NA,311,NA
+324,CoCrFeNiMnV,Co-Cr-Fe-Ni-Mn-V,HEA,Fusion por arco,FCC,NA,650,NA,NA,90,NA
+325,CoCrFeNi,Co-Cr-Fe-Ni,MEA,Fusion por arco + homogenizado 1000°C por 24 h,FCC,NA,134,NA,130,458,87
+326,CoCrFeNiMn,Co-Cr-Fe-Ni-Mn,HEA,Fusion por arco + homogenizado 1000°C por 24 h,FCC,NA,135,NA,162,443,68
+327,CoCrFeNiV,Co-Cr-Fe-Ni-V,HEA,Fusion por arco + homogenizado 1000°C por 24 h,FCC,NA,587,NA,NA,330,NA
+328,CoCrFeNiMnV,Co-Cr-Fe-Ni-Mn-V,HEA,Fusion por arco + homogenizado 1000°C por 24 h,FCC,NA,636,NA,NA,62,NA
+329,CoCrFeMnNi,"Co19,9-Cr20,6-Fe20,1-Ni20,0-Mn19,5",HEA,Fusion por arco + Recocido 1000°C por24 h,FCC,8,144,219,230,NA,75
+330,CoCrFeMnNiV0.25,"Co19,3-Cr20,0-Fe19,6-Ni19,5-Mn17-V4,6",HEA,Fusion por arco + Recocido 1000°C por24 h,FCC,7.9,151,215,200,NA,75
+331,CoCrFeMnNiV0.5,"Co18,9-Cr18,8-Fe18,4-Ni18,0-Mn17,8-V9,1",HEA,Fusion por arco + Recocido 1000°C por24 h,FCC,7.8,186,211,620,NA,75
+332,CoCrFeMnNiV0.75,"Co17,2-Cr17,5-Fe18,2-Ni17,2-Mn16,5-V13,3",HEA,Fusion por arco + Recocido 1000°C por24 h,FCC,7.7,342,NA,740,1325,8
+333,CoCrFeMnNiV1.0,"Co16,2-Cr17-Fe17,2-Ni16,5-Mn16,1-V17",HEA,Fusion por arco + Recocido 1000°C por24 h,FCC,7.7,650,NA,1660,1845,1
+334,Al0.5CrFe1.5MnNi0.5,Al0.5-Cr-Fe1.5-Mn-Ni0.6,HEA,Fusion por arco,BCC,7,396,206,NA,NA,NA
+335,Al0.3CrFe1.5MnNi0.5,Al0.3-Cr-Fe1.5-Mn-Ni0.6,HEA,Fusion por arco,FCC+BCC,7.2,297,213,NA,NA,NA
+336,AlCrFeNi,Al-Cr-Fe-Ni,MEA,Fusion por arco + homogenizacion por agitacion electromagnetica,BCC,6.3,472,190,1406,2927,29
+337,AlCrFeNiMo0.2,Al-Cr-Fe-Ni-Mo-0.2,HEA,Fusion por arco + homogenizacion por agitacion electromagnetica,BCC,6.5,549,197,1487,3222,29
+338,AlCrFeNiMo0.5,Al-Cr-Fe-Ni-Mo-0.5,HEA,Fusion por arco + homogenizacion por agitacion electromagnetica,BCC,6.8,622,205,1749,2644,13
+339,AlCrFeNiMo0.8,Al-Cr-Fe-Ni-Mo-0.8,HEA,Fusion por arco + homogenizacion por agitacion electromagnetica,BCC+IM,7,854,NA,1513,1513,1
+340,AlCrFeNiMo,Al-Cr-Fe-Ni-Mo,HEA,Fusion por arco + homogenizacion por agitacion electromagnetica,BCC+IM,7.2,905,NA,NA,NA,NA
+341,CoCrCuFe,Co-Cr-Cu-Fe,HEA,N/A,FCC,8.2,134,206,NA,NA,NA
+342,Al0.3CoCrCuFe,Al0.3-Co-Cr-Cu-Fe,HEA,N/A,FCC,7.7,180,194,NA,NA,NA
+343,Al0.5CoCrCuFe,Al0.5-Co-Cr-Cu-Fe,HEA,N/A,FCC,7.4,207,187,NA,NA,NA
+344,Al0.8CoCrCuFe,Al0.8-Co-Cr-Cu-Fe,HEA,N/A,FCC+BCC,7,271,177,NA,NA,NA
+345,AlCoCrCuFe,Al-Co-Cr-Cu-Fe,HEA,N/A,FCC+BCC,6.8,407,172,NA,NA,NA
+346,Al1.3CoCrCuFe,"Al1,3-Co-Cr-Cu-Fe",HEA,N/A,FCC+BCC,6.5,476,165,NA,NA,NA
+347,Al1.5CoCrCuFe,"Al1,5-Co-Cr-Cu-Fe",HEA,N/A,FCC+BCC,6.3,510,167,NA,NA,NA
+348,Al1.8CoCrCuFe,Al1.8-Co-Cr-Cu-Fe,HEA,N/A,FCC+BCC,6,557,155,NA,NA,NA
+349,Al2.0CoCrCuFe,"Al2,0-Co-Cr-Cu-Fe",HEA,N/A,FCC+BCC,5.9,567,152,NA,NA,NA
+350,Al2.3CoCrCuFe,"Al2,3-Co-Cr-Cu-Fe",HEA,N/A,FCC+BCC,5.7,603,147,NA,NA,NA
+351,Al2.5CoCrCuFe,"Al2,5-Co-Cr-Cu-Fe",HEA,N/A,FCC+BCC,5.6,624,144,NA,NA,NA
+352,Al2.8CoCrCuFe,"Al2,8-Co-Cr-Cu-Fe",HEA,N/A,BCC,5.5,657,140,NA,NA,NA
+353,Al3.0CoCrCuFe,"Al3,0-Co-Cr-Cu-Fe",HEA,N/A,BCC,5.4,644,138,NA,NA,NA
+354,Cu0.5CoCrFeNi,Cu0.5-Co-Cr-Fe-Ni,HEA,Fundicion bajo atmosfera de argon,FCC,8.3,172,214,NA,NA,NA
+355,CoCrCuFeNi,Co-Cr-Cu-Fe-Ni,HEA,Fusion por arco,FCC,8.3,132,56,230,NA,NA
+356,Al0.3CoCrCuFeNi,Al0.3-Co-Cr-Cu-Fe-Ni,HEA,Fusion por arco,FCC,7.9,180,198,NA,NA,NA
+357,Al0.5CoCrCuFeNi,Al0.5-Co-Cr-Cu-Fe-Ni,HEA,Fusion por arco,FCC,7.6,210,193,388,NA,NA
+358,Al0.8CoCrCuFeNi,Al0.8-Co-Cr-Cu-Fe-Ni,HEA,Fusion por arco,FCC,7.3,270,187,NA,NA,NA
+359,AlCoCrCuFeNi,Al-Co-Cr-Cu-Fe-Ni,HEA,Fusion por arco,FCC+BCC,7.1,406,183,950,NA,NA
+360,Al1.3CoCrCuFeNi,Al1.3-Co-Cr-Cu-Fe-Ni,HEA,Fusion por arco,FCC+BCC,6.8,470,178,NA,NA,NA
+361,Al1.5CoCrCuFeNi,Al1.5-Co-Cr-Cu-Fe-Ni,HEA,Fusion por arco,FCC+BCC,6.6,506,133,NA,NA,NA
+362,Al1.8CoCrCuFeNi,Al1.8-Co-Cr-Cu-Fe-Ni,HEA,Fusion por arco,FCC+BCC,6.4,650,170,NA,NA,NA
+363,Al2CoCrCuFeNi,"Al2,0-Co-Cr-Cu-Fe-Ni",HEA,Fusion por arco,FCC+BCC,6.3,560,167,1620,NA,NA
+364,Al2.3CoCrCuFeNi,"Al2,3-Co-Cr-Cu-Fe-Ni",HEA,Fusion por arco,FCC+BCC,6.1,600,163,NA,NA,NA
+365,Al2.5CoCrCuFeNi,"Al2,5-Co-Cr-Cu-Fe-Ni",HEA,Fusion por arco,FCC+BCC,6,620,161,NA,NA,NA
+366,Al2.8CoCrCuFeNi,"Al2,8-Co-Cr-Cu-Fe-Ni",HEA,Fusion por arco,BCC,5.8,650,157,NA,NA,NA
+367,Al0.5CoCrCuFeNi,Al0.5-Co-Cr-Cu-Fe-Ni,HEA,Fusion por induccion,FCC,7.6,300,193,NA,NA,NA
+368,Al0.5B0.2CoCrCuFeNi,Al0.5-B0.2-Co-Cr-Cu-Fe-Ni,HEA,Fusion por induccion,FCC+IM,7.7,415,NA,NA,NA,NA
+369,Al0.5B0.6CoCrCuFeNi,Al0.5-B0.6-Co-Cr-Cu-Fe-Ni,HEA,Fusion por induccion,FCC+IM,7.7,505,NA,NA,NA,NA
+370,Al0.5BCoCrCuFeNi,Al0.5-B-Co-Cr-Cu-Fe-Ni,HEA,Fusion por induccion,FCC+IM,7.8,736,NA,NA,NA,NA
+371,Al0.5CoCrCuFeNi,Al0.5-Co-Cr-Cu-Fe-Ni,HEA,Fusion por arco,FCC,7.6,225,193,NA,NA,NA
+372,Al0.5CoCrCuFeNiTi0.2,Al0.5-Co-Cr-Cu-Fe-Ni-Ti0.2,HEA,Fusion por arco,FCC,7.5,272,191,NA,NA,NA
+373,Al0.5CoCrCuFeNiTi0.4,Al0.5-Co-Cr-Cu-Fe-Ni-Ti0.4,HEA,Fusion por arco,FCC,7.3,321,188,NA,NA,NA
+374,Al0.5CoCrCuFeNiTi0.6,Al0.5-Co-Cr-Cu-Fe-Ni-Ti-0.6,HEA,Fusion por arco,FCC+IM,7.2,458,186,NA,NA,NA
+375,Al0.5CoCrCuFeNiTi0.8,Al0.5-Co-Cr-Cu-Fe-Ni-Ti-0.8,HEA,Fusion por arco,FCC+BCC+IM,7.1,590,184,NA,NA,NA
+376,Al0.5CoCrCuFeNiTi,Al0.5-Co-Cr-Cu-Fe-Ni-Ti,HEA,Fusion por arco,FCC+BCC+IM,7,636,NA,NA,NA,NA
+377,Al0.5CoCrCuFeNiTi1.2,Al0.5-Co-Cr-Cu-Fe-Ni-Ti1.2,HEA,Fusion por arco,FCC+BCC+IM,6.9,646,NA,NA,NA,NA
+378,Al0.5CoCrCuFeNiTi1.4,Al0.5-Co-Cr-Cu-Fe-Ni-Ti1.4,HEA,Fusion por arco,FCC+BCC+IM,6.8,664,NA,NA,NA,NA
+379,Al0.5CoCrCuFeNiTi1.6,Al0.5-Co-Cr-Cu-Fe-Ni-Ti1.6,HEA,Fusion por arco,FCC+BCC+IM,6.7,657,NA,NA,NA,NA
+380,Al0.5CoCrCuFeNiTi1.8,Al0.5-Co-Cr-Cu-Fe-Ni-Ti1.8,HEA,Fusion por arco,FCC+BCC+IM,6.6,667,NA,NA,NA,NA
+381,Al0.5CoCrCuFeNiTi2,Al0.5-Co-Cr-Cu-Fe-Ni-Ti2,HEA,Fusion por arco,FCC+BCC+IM,6.5,696,NA,NA,NA,NA
+382,Al0.5CoCrCuFeNi,Al0.5-Co-Cr-Cu-Fe-Ni,HEA,Fusion por arco,FCC,7.6,215,193,NA,NA,NA
+383,Al0.5CoCrCuFeNiV0.2,Al0.5-Co-Cr-Cu-Fe-Ni-V0.2,HEA,Fusion por arco,FCC,7.6,204,191,NA,NA,NA
+384,Al0.5CoCrCuFeNiV0.4,Al0.5-Co-Cr-Cu-Fe-Ni-V0.4,HEA,Fusion por arco,FCC+BCC,7.5,231,189,NA,NA,NA
+385,Al0.5CoCrCuFeNiV0.6,Al0.5-Co-Cr-Cu-Fe-Ni-V0.6,HEA,Fusion por arco,FCC+BCC+IM,7.5,328,NA,NA,NA,NA
+386,Al0.5CoCrCuFeNiV0.8,Al0.5-Co-Cr-Cu-Fe-Ni-V0.8,HEA,Fusion por arco,FCC+BCC+IM,7.4,447,NA,NA,NA,NA
+387,Al0.5CoCrCuFeNiV1.0,Al0.5-Co-Cr-Cu-Fe-Ni-V,HEA,Fusion por arco,FCC+BCC+IM,7.4,639,NA,NA,NA,NA
+388,Al0.5CoCrCuFeNiV1.2,"Al0.5-Co-Cr-Cu-Fe-Ni-V01,2",HEA,Fusion por arco,BCC,7.3,579,182,NA,NA,NA
+389,Al0.5CoCrCuFeNiV1.4,"Al0.5-Co-Cr-Cu-Fe-Ni-V1,4",HEA,Fusion por arco,BCC,7.3,577,180,NA,NA,NA
+390,Al0.5CoCrCuFeNiV1.6,"Al0.5-Co-Cr-Cu-Fe-Ni-V1,6",HEA,Fusion por arco,BCC,7.2,594,179,NA,NA,NA
+391,Al0.5CoCrCuFeNiV1.8,"Al0.5-Co-Cr-Cu-Fe-Ni-V1,8",HEA,Fusion por arco,BCC,7.2,597,177,NA,NA,NA
+392,Al0.5CoCrCuFeNiV2.0,"Al0.5-Co-Cr-Cu-Fe-Ni-V2,0",HEA,Fusion por arco,BCC,7.2,587,176,NA,NA,NA
+393,AlCoCrCuFeNi,Al-Co-Cr-Cu-Fe-Ni,HEA,Fusion por arco +  enfriamiento en agua,FCC+BCC,7.1,472,184,NA,1510,16
+394,AlCoCuFeNi,Al-Co-Cu-Fe-Ni,HEA,Fusion por arco +  enfriamiento en agua,FCC+BCC,7,536,164,NA,1330,9
+395,AlCoCuFeNbNi,Al-Co-Cu-Fe-Nb-Ni,HEA,Fusion por arco +  enfriamiento en agua,FCC+BCC,7.4,578,NA,NA,670,7.6
+396,AlCoCuFeNiSi,Al-Co-Cu-Fe-Ni-Si,HEA,Fusion por arco +  enfriamiento en agua,FCC+BCC,5.9,682,145,NA,1930,10
+397,AlCoCuFeNiTi,Al-Co-Cu-Fe-Ni-Ti,HEA,Fusion por arco +  enfriamiento en agua,FCC+BCC,6.5,626,156,NA,1660,11
+398,AlCoCuFeNiZr,Al-Co-Cu-Fe-Ni-Zr,HEA,Fusion por arco +  enfriamiento en agua,FCC+BCC+IM,6.9,472,NA,NA,1050,8
+399,AlCoCrCuNiTi,Al-Co-Cr-Cu-Ni-Ti,HEA,Fusion por arco electrico,BCC+FCC,6.4,NA,36,NA,1495,8
+400,AlCoCrCuNiTiY0.5,Al-Co-Cr-Cu-Ni-Ti-Y0.5,HEA,Fusion por arco electrico,FCC+BCC+IM,6.1,NA,36,NA,1025,3
+401,AlCoCrCuNiTiY0.8,Al-Co-Cr-Cu-Ni-Ti-Y0.8,HEA,Fusion por arco electrico,FCC+BCC+IM,5.9,NA,38,NA,1325,5
+402,AlCoCrCuNiTiY,Al-Co-Cr-Cu-Ni-Ti-Y,HEA,Fusion por arco electrico,FCC+BCC+IM,5.8,NA,37,NA,1192,4
+403,CoCuFeNi,Fe25-Co25-Cu25-Ni25,HEA,Fusion por vacio,FCC,8.6,NA,188,NA,480,15
+404,CoCuFeNiSn0.02,"Fe24,8-Co24,8-Cu24,8-Ni24,8-Sn0,5",HEA,Fusion por vacio,FCC,8.6,NA,187,NA,548,17
+405,CoCuFeNiSn0.04,"Fe24,7-Co24,7-Cu24,7-Ni24,7-Sn1",HEA,Fusion por vacio,FCC+IM,8.6,NA,NA,NA,594,18
+406,CoCuFeNiSn0.05,"Fe24,7-Co24,7-Cu24,7-Ni24,7-Sn1,23",HEA,Fusion por vacio,FCC+IM,8.6,NA,NA,NA,615,20
+407,CoCuFeNiSn0.07,"Fe24,5-Co24,5-Cu24,5-Ni24,5-Sn1,7",HEA,Fusion por vacio,FCC+IM,8.6,NA,NA,NA,632,19
+408,CoCuFeNiSn0.1,"Fe24,4-Co24,4-Cu24,4-Ni24,4-Sn2,5",HEA,Fusion por vacio,FCC+IM,8.6,NA,NA,NA,602,5
+409,CoCuFeNiSn0.2,"Fe23,8-Co23,8-Cu23,8-Ni23,8-Sn4,76",HEA,Fusion por vacio,FCC+IM,8.5,NA,NA,NA,261,2
+410,CoCuFeNiSn0.5,"Fe22,2-Co22,2-Cu22,2-Ni22,2-Sn11,1",HEA,Fusion por vacio,FCC+IM,8.3,NA,NA,NA,NA,NA
+411,CoCuFeMnNi,Co-Cu-Fe-Mn-Ni,HEA,Fusion por vacio 1800°C,FCC,8.4,208,190,NA,478,14
+412,CoCuFeMnNiSn0.03,Co-Cu-Fe-Mn-Ni-Sn0.03,HEA,Fusion por vacio 1800°C,FCC,8.4,192,NA,NA,465,18
+413,CoCuFeMnNiSn0.05,Co-Cu-Fe-Mn-Ni-Sn-0.05,HEA,Fusion por vacio 1800°C,FCC+IM,8.4,205,NA,NA,475,12
+414,CoCuFeMnNiSn0.08,Co-Cu-Fe-Mn-Ni-Sn-0.08,HEA,Fusion por vacio 1800°C,FCC+IM,8.3,219,NA,NA,425,7
+415,CoCuFeMnNiSn0.10,Co-Cu-Fe-Mn-Ni-Sn-0.1,HEA,Fusion por vacio 1800°C,FCC+IM,8.3,253,NA,NA,470,6
+416,CoCuFeMnNiSn0.20,Co-Cu-Fe-Mn-Ni-Sn-0.2,HEA,Fusion por vacio 1800°C,FCC+IM,8.3,319,NA,NA,368,2
+417,CoCrCuFeNi,Co-Cr-Cu-Fe-Ni,HEA,Fusion por arco al vacio + calentamiento 650°C por 4 h,FCC,8.3,286,56,230,888,51
+418,AlCrCuFeNi0.6,Al-Cr-Cu-Fe-Ni0.6,HEA,Fusion por arco al vacio + calentamiento 650°C por 4 h,FCC+BCC,6.6,496,176,NA,NA,NA
+419,AlCrCuFeNi0.8,Al-Cr-Cu-Fe-Ni0.8,HEA,Fusion por arco al vacio + calentamiento 650°C por 4 h,FCC+BCC,6.7,486,177,NA,NA,NA
+420,AlCrCuFeNi,Al-Cr-Cu-Fe-Ni,HEA,Fusion por arco al vacio + calentamiento 650°C por 4 h,FCC+BCC+IM,6.8,495,178,NA,NA,NA
+421,AlCrCuFeNi1.2,Al-Cr-Cu-Fe-Ni1.2,HEA,Fusion por arco al vacio + calentamiento 650°C por 4 h,FCC+BCC,6.8,407,179,NA,NA,NA
+422,AlCrCuFeNi1.4,Al-Cr-Cu-Fe-Ni1.4,HEA,Fusion por arco al vacio + calentamiento 650°C por 4 h,FCC+BCC,6.9,367,180,NA,NA,NA
+423,AlCrCuFeNi2,Al-Cr-Cu-Fe-Ni2,HEA,Fusion por arco,FCC+BCC,7.1,NA,182,NA,NA,NA
+424,Al0.2CrCuFeNi2,Al0.2-Cr-Cu-Fe-Ni2,HEA,Fusion por arco,FCC,8,NA,199,NA,NA,NA
+425,Al0.4CrCuFeNi2,Al0.4-Cr-Cu-Fe-Ni2,HEA,Fusion por arco,FCC,7.8,NA,194,NA,NA,NA
+426,Al0.6CrCuFeNi2,Al0.6-Cr-Cu-Fe-Ni2,HEA,Fusion por arco,FCC,7.5,NA,190,NA,NA,NA
+427,Al0.8CrCuFeNi2,Al0.8-Cr-Cu-Fe-Ni2,HEA,Fusion por arco,FCC,7.3,NA,186,NA,NA,NA
+428,Al1.2CrCuFeNi2,Al1.2-Cr-Cu-Fe-Ni2,HEA,Fusion por arco,FCC+BCC,6.9,NA,178,NA,NA,NA
+429,AlCrCuFeNiTi,Al-Cr-Cu-Fe-Ni-Ti,HEA,Fusion por arco al vacio,BCC+IM,6.3,NA,NA,NA,1219,NA
+430,Al1.125CuFe0.75NiTi1.125,Al1.125-Cu-Fe0.75-Ni-Ti1.126,HEA,Fusion por induccion al vacio en atmosfera de argon,FCC,5.9,516,145,980,1326,7
+431,Al22.5Cu20Fe15Ni20Ti22.5,Al22.5-Cu20-Fe15-Ni20-Ti22.6,HEA,Fusion por induccion al vacio en atmosfera de argon,FCC,5.9,516,145,980,1326,7
+432,AlCuFeNiTi,Al-Cu-Fe-Ni-Ti,HEA,Fusion por induccion al vacio en atmosfera de argon,FCC,6.1,516,146,1074,1617,8
+433,AlCuNiTi,Al-Cu-Ni-Ti,MEA,Fusion por induccion al vacio en atmosfera de argon,FCC,5.7,537,108,300,536,1
+434,AlCr0.5NbTiV,Al-Cr0.5-Nb-Ti-V,Refractario,Fusion por arco cpn enfriamiento de agua + homogenizado 1200 °C por 24 h,BCC,5.6,NA,124,1300,1430,1
+435,AlCrNbTiV,Al-Cr-Nb-Ti-V,Refractario,Fusion por arco cpn enfriamiento de agua + homogenizado 1200 °C por 24 h,BCC+IM,5.8,NA,NA,1550,1570,1
+436,AlCr1.5NbTiV,Al-Cr1.5-Nb-Ti-V,Refractario,Fusion por arco cpn enfriamiento de agua + homogenizado 1200 °C por 24 h,FCC+IM,5.9,NA,NA,1700,1700,1
+437,Al-Nb-Ti-V,Al-Nb-Ti-V,Refractario,Fusion por arco cpn enfriamiento de agua + homogenizado 1200 °C por 24 h,BCC,5.5,NA,105,1000,1280,5
+438,Al0.4Hf0.6NbTaTiZr,"Al7,9-Hf12,8-Nb23-Ta16,8-Ti18,9-Zr20,6",Refractario,Aleacion por arco al vacio,BCC,9.1,500,110,1841,2269,10
+439,AlMo0.5NbTa0.5TiZr,"Al20,4-Mo10,5-Nb22,4-Ta10,1-Ti17,8-Zr18,8",Refractario,Aleacion por arco al vacio,BCC,7.1,591,123,2000,2368,10
+440,Al0.3NbTa0.8Ti1.4V0.2Zr1.3,"Al5,2-Nb23,4-Ta13,2-Ti27,7-V4,3-Zr26,2",Refractario,Aleacion por arco al vacio,BCC,7.7,500,110,1965,2061,5
+441,Al0.5NbTa0.8Ti1.5V0.2Zr,"Al11,3-Nb22,3-Ta13,1-Ti27,9-V4,5-Zr20,9",Refractario,Aleacion por arco al vacio,BCC,7.6,530,111,2035,2105,5
+442,Al0.3NbTaTi1.4Zr1.3,"Al5,7-Nb23,5-Ta17,6-Ti27,2-Zr26",Refractario,Aleacion por arco al vacio,BCC,8.1,490,113,1965,2054,5
+443,AlNb1.5Ta0.5Ti1.5Zr0.5,"Al21,9-Nb32-Ta9-Ti26,7-Zr10,3",Refractario,Aleacion por arco al vacio,BCC,6.8,408,106,1280,1367,4
+444,Al0.3HfNbTaTiZr,"Al6,6-Hf18,7-Nb18,6-Ta18,4-Ti18,4-Zr19,3",Refractario,Aleacion por arco al vacio,BCC,9.5,353,63,1188,NA,50
+445,Al0.5HfNbTaTiZr,"Al9,4-Hf18,0-Nb17,6-Ta17,6-Ti18,3-Zr19,1",Refractario,Aleacion por arco al vacio,BCC,9.3,396,97,1302,NA,46
+446,Al0.75HfNbTaTiZr,"Al12,5-Hf16,9-Nb17,4-Ta17,6-Ti17,6-Zr18,2",Refractario,Aleacion por arco al vacio,BCC,9.3,427,102,1415,2050,30
+447,AlHfNbTaTiZr,"Al16,2-Hf16,4-Nb16,9-Ta16,4-Ti17,4-Zr16,6",Refractario,Aleacion por arco al vacio,BCC+IM,8.6,441,103,1489,1900,21
+448,HfNbTaTiZr,"HF20,8-Nb18,9-Ta20,2-Ti20,2-Zr19,9",Refractario,Aleacion por arco al vacio,BCC,9.7,295,55,1073,NA,50
+449,Al0.25MoNbTiV,Al0.25-Mo-Nb-Ti-V,Refractario,Fusion por arco electrico no consumible,BCC,7.1,460,164,1250,NA,13
+450,Al0.5MoNbTiV,Al0.5-Mo-Nb-Ti-V,Refractario,Fusion por arco electrico no consumible,BCC,6.8,487,158,1625,NA,11
+451,Al0.75MoNbTiV,Al0.75-Mo-Nb-Ti-V,Refractario,Fusion por arco electrico no consumible,BCC,6.6,517,154,1260,NA,8
+452,AlMoNbTiV,Al-Mo-Nb-Ti-V,Refractario,Fusion por arco electrico no consumible,BCC,6.4,537,150,1375,NA,3
+453,MoNbTiV,Mo-Nb-Ti-V,Refractario,Fusion por arco electrico no consumible,BCC,7.3,441,170,1200,NA,26
+454,Al0.25NbTaTiV,Al0.25-Nb-Ta-Ti-V,Refractario,Fusion por arco,BCC,8.8,NA,92,1330,NA,NA
+455,Al0.5NbTaTiV,Al0.5-Nb-Ta-Ti-V,Refractario,Fusion por arco,BCC,8.5,NA,97,1014,NA,NA
+456,AlNbTaTiV,Al-Nb-Ta-Ti-V,Refractario,Fusion por arco,BCC,7.9,NA,101,993,NA,NA
+457,AlNbTiV,Al-Nb-Ti-V,Refractario,Fusion por arco + homogenizado 1200 °C por 24 h,BCC,5.5,448,105,1020,1318,5
+458,AlNbTiV,Al-Nb-Ti-V,Refractario,Fusion por arco + homogenizado 1200 °C por 24 h + ensayo a 600°C,BCC,5.5,NA,NA,810,1050,12
+459,AlNbTiV,Al-Nb-Ti-V,Refractario,Fusion por arco + homogenizado 1200 °C por 24 h + ensayo a 800°C,BCC,5.5,NA,NA,685,NA,NA
+460,AlNbTiV,Al-Nb-Ti-V,Refractario,Fusion por arco + homogenizado 1200 °C por 24 h + ensayo a 1000°C,BCC,5.5,NA,NA,158,NA,NA
+461,TiZrHfNbV,Ti20-Zr20-Hf20-Nb20-V20,Refractario,Fusion por induccion,BCC,8.1,388,128,1170,1463,29.6
+462,TiZrHfNbV,Ti20-Zr20-Hf20-Nb20-V20,Refractario,Fusion por induccion + recocido 573 K por 600 s,BCC,8.1,392,128,1120,1376,30
+463,TiZrHfNbV,Ti20-Zr20-Hf20-Nb20-V20,Refractario,Fusion por induccion + recocido 773 K por 600 s,BCC,8.1,390,128,1253,1393,38
+464,TiZrHfNbV,Ti20-Zr20-Hf20-Nb20-V20,Refractario,Fusion por induccion + recocido 973 K por 600 s,BCC,8.1,394,128,1140,1463,29.7
+465,TiZrHfNbV,Ti20-Zr20-Hf20-Nb20-V20,Refractario,Fusion por induccion + recocido 1173 K por 600 s,BCC+IM,8.1,388,128,1157,1468,39.6
+466,TiZrHfNbCr,Ti20-Zr20-Hf20-Nb20-Cr20,Refractario,Fusion por induccion,BCC+IM,8.2,464,112,1375,2130,2.8
+467,TiZrHfNbCr,Ti20-Zr20-Hf20-Nb20-Cr21,Refractario,Fusion por induccion + recocido 573 K por 600 s,BCC+IM,8.2,466,112,1420,1885,4.2
+468,TiZrHfNbCr,Ti20-Zr20-Hf20-Nb20-Cr22,Refractario,Fusion por induccion + recocido 773 K por 600 s,BCC+IM,8.2,479,112,1457,1908,2.2
+469,TiZrHfNbCr,Ti20-Zr20-Hf20-Nb20-Cr23,Refractario,Fusion por induccion + recocido 973 K por 600 s,BCC+IM,8.2,489,112,1332,1726,1.4
+470,TiZrHfNbCr,Ti20-Zr20-Hf20-Nb20-Cr24,Refractario,Fusion por induccion + recocido 1173 K por 600 s,BCC+IM,8.2,459,112,1328,1884,4.5
+471,NbCrMo0.5Ta0.5TiZr,Nb-Cr-Mo0.5-Ta0.5-Ti-Zr,Refractario,Fusion por arco al vacio,BCC+FCC,8,540,NA,1595,2046,5
+472,NbCrMo0.5Ta0.5TiZr,Nb-Cr-Mo0.5-Ta0.5-Ti-Zr,Refractario,Fusion por arco al vacio + estudio 1073 K,BCC+FCC,8,NA,NA,983,1100,5.5
+473,NbCrMo0.5Ta0.5TiZr,Nb-Cr-Mo0.5-Ta0.5-Ti-Zr,Refractario,Fusion por arco al vacio + estudio 1273 K,BCC+FCC,8,NA,NA,546,630,NA
+474,NbCrMo0.5Ta0.5TiZr,Nb-Cr-Mo0.5-Ta0.5-Ti-Zr,Refractario,Fusion por arco al vacio + estudio 1473 K,BCC+FCC,8,NA,NA,170,190,NA
+475,NbTiVZr,"Nb28,3-Ti24,5-V23,0-Zr24,2",Refractario,fusion por arco al vacio + HIP 1473 K por 2 h a 207 Mpa,BCC,6.52,335,NA,1105,NA,50
+476,NbTiVZr,"Nb28,3-Ti24,5-V23,0-Zr24,2",Refractario,fusion por arco al vacio + HIP 1473 K por 2 h a 207 Mpa + estudio a 873 K,BCC,6.52,NA,NA,8347,NA,50
+477,NbTiVZr,"Nb28,3-Ti24,5-V23,0-Zr24,2",Refractario,fusion por arco al vacio + HIP 1473 K por 2 h a 207 Mpa + estudio a 1073 K,BCC,6.52,NA,NA,187,NA,50
+478,NbTiVZr,"Nb28,3-Ti24,5-V23,0-Zr24,2",Refractario,fusion por arco al vacio + HIP 1473 K por 2 h a 207 Mpa + estudio a 1273 K,BCC,6.52,310,NA,58,NA,50
+479,NbTiV2Zr,"Nb22,6-Ti19,4-V37,2-Zr20,8",Refractario,fusion por arco al vacio + HIP 1473 K por 2 h a 207 Mpa,BCC,6.34,304,NA,918,NA,50
+480,NbTiV2Zr,"Nb22,6-Ti19,4-V37,2-Zr20,8",Refractario,fusion por arco al vacio + HIP 1473 K por 2 h a 207 Mpa + estudio a 873 K,BCC,6.34,NA,NA,571,NA,50
+481,NbTiV2Zr,"Nb22,6-Ti19,4-V37,2-Zr20,8",Refractario,fusion por arco al vacio + HIP 1473 K por 2 h a 207 Mpa + estudio a 1073 K,BCC,6.34,NA,NA,240,NA,50
+482,NbTiV2Zr,"Nb22,6-Ti19,4-V37,2-Zr20,8",Refractario,fusion por arco al vacio + HIP 1473 K por 2 h a 207 Mpa + estudio a 1273 K,BCC,6.34,302,NA,72,NA,50
+483,CrNbTiZr,"Cr24,6-Nb26,7-Ti23,9-Zr24,8",Refractario,fusion por arco al vacio + HIP 1473 K por 2 h a 207 Mpa,BCC+IM,6.67,418,NA,1260,NA,6
+484,CrNbTiZr,"Cr24,6-Nb26,7-Ti23,9-Zr24,8",Refractario,fusion por arco al vacio + HIP 1473 K por 2 h a 207 Mpa + estudio a 873 K,BCC+IM,6.67,NA,NA,1035,NA,50
+485,CrNbTiZr,"Cr24,6-Nb26,7-Ti23,9-Zr24,8",Refractario,fusion por arco al vacio + HIP 1473 K por 2 h a 207 Mpa + estudio a 1073 K,BCC+IM,6.67,NA,NA,300,NA,50
+486,CrNbTiZr,"Cr24,6-Nb26,7-Ti23,9-Zr24,8",Refractario,fusion por arco al vacio + HIP 1473 K por 2 h a 207 Mpa + estudio a 1273 K,BCC+IM,6.67,396,NA,115,NA,50
+487,CrNbTiVZr,"Cr20,2-Nb20-Ti19,9-V19,6-Zr20,3",Refractario,fusion por arco al vacio + HIP 1473 K por 2 h a 207 Mpa,BCC+IM,6.57,481,NA,1290,NA,3
+488,CrNbTiVZr,"Cr20,2-Nb20-Ti19,9-V19,6-Zr20,3",Refractario,fusion por arco al vacio + HIP 1473 K por 2 h a 207 Mpa + estudio a 873 K,BCC+IM,6.57,NA,NA,1230,NA,10
+489,CrNbTiVZr,"Cr20,2-Nb20-Ti19,9-V19,6-Zr20,3",Refractario,fusion por arco al vacio + HIP 1473 K por 2 h a 207 Mpa + estudio a 1073 K,BCC+IM,6.57,NA,NA,615,NA,50
+490,CrNbTiVZr,"Cr20,2-Nb20-Ti19,9-V19,6-Zr20,3",Refractario,fusion por arco al vacio + HIP 1473 K por 2 h a 207 Mpa + estudio a 1273 K,BCC+IM,6.57,449,NA,259,NA,50
+491,Hf0.5Mo0.5NbTiZrC0.1,Hf0.5-Mo0.5-NbTi-Zr-C0.1,Refractario,Fusion por arco,BCC+IM,7.8,NA,NA,1183,2139,38
+492,Hf0.5Mo0.5NbTiZrC0.3,Hf0.5-Mo0.5-Nb-Ti-Zr-C0.3,Refractario,Fusion por arco,BCC+IM,7.7,NA,NA,1201,1965,33
+493,HfMo0.25NbTaTiZr,Hf-Mo0.25-Nb-Ta-Ti-Zr,Refractario,Fusion por arco al vacio,BCC,9.9,395,96,1112,NA,50
+494,HfMo0.5NbTaTiZr,Hf-Mo0.5-Nb-Ta-Ti-Zr,Refractario,Fusion por arco al vacio,BCC,10,480,102,1317,NA,50
+495,HfMo0.75NbTaTiZr,Hf-Mo0.75-Nb-Ta-Ti-Zr,Refractario,Fusion por arco al vacio,BCC,10,492,109,1373,NA,50
+496,HfMoNbTaTiZr,Hf-Mo-Nb-Ta-Ti-Zr,Refractario,Fusion por arco al vacio,BCC,10,505,115,1512,NA,12
+497,HfNbTaTiZr,Hf-Nb-Ta-Ti-Zr,Refractario,Fusion por arco al vacio,BCC,9.9,335,85,1015,NA,50
+498,HfMoTaTiZr,Hf20-Mo20-Ta20-Ti20-Zr20,Refractario,Fusion por arco al vacio,BCC,10.2,542,155,1600,NA,4
+499,HfMoTaTiZr,Hf20-Mo20-Ta20-Ti20-Zr20,Refractario,Fusion por arco al vacio + estudio a 800°C,BCC,10.3,NA,NA,1045,NA,19
+500,HfMoTaTiZr,Hf20-Mo20-Ta20-Ti20-Zr20,Refractario,Fusion por arco al vacio + estudio a 1000°C,BCC,10.4,NA,NA,855,NA,30
+501,HfMoTaTiZr,Hf20-Mo20-Ta20-Ti20-Zr20,Refractario,Fusion por arco al vacio + estudio a 1200°C,BCC,10.5,NA,NA,404,NA,30
+502,HfMoNbTaTiZr,"Hf16,7-Mo16,7-Nb16,7-Ta16,7-Ti16,7-Zr16,7",Refractario,Fusion por arco al vacio,BCC,10,505,147,1512,NA,12
+503,HfMoNbTaTiZr,"Hf16,7-Mo16,7-Nb16,7-Ta16,7-Ti16,7-Zr16,7",Refractario,Fusion por arco al vacio + estudio a 800°C,BCC,10.1,NA,NA,1007,NA,23
+504,HfMoNbTaTiZr,"Hf16,7-Mo16,7-Nb16,7-Ta16,7-Ti16,7-Zr16,7",Refractario,Fusion por arco al vacio + estudio a 1000°C,BCC,10.2,NA,NA,814,NA,30
+505,HfMoNbTaTiZr,"Hf16,7-Mo16,7-Nb16,7-Ta16,7-Ti16,7-Zr16,7",Refractario,Fusion por arco al vacio + estudio a 1200°C,BCC,10.3,NA,NA,556,NA,30
+506,HfMoNbTiZr,Hf-Mo-Nb-Ti-Zr,Refractario,Fusion por arco + homogenizado 1373 K por 10 h,BCC,8.7,NA,139,1575,NA,9
+507,HfMoNbTiZr,Hf-Mo-Nb-Ti-Zr,Refractario,Fusion por arco + homogenizado 1373 K por 10 h + estudio 800°C,BCC,8.7,NA,NA,825,NA,50
+508,HfMoNbTiZr,Hf-Mo-Nb-Ti-Zr,Refractario,Fusion por arco + homogenizado 1373 K por 10 h + estudio 1000°C,BCC,8.7,NA,NA,635,NA,50
+509,HfMoNbTiZr,Hf-Mo-Nb-Ti-Zr,Refractario,Fusion por arco + homogenizado 1373 K por 10 h + estudio 1200°C,BCC,8.7,NA,NA,187,NA,50
+510,HfNbSi0.5TiV,"Hf22,2-Nb22,2-Ti22,2-V22,2-Si11,2",Refractario,Levitación en crisol frío fusión en atmósfera de argón,BCC+IM,8.6,490,NA,1399,NA,10.9
+511,HfNbSi0.5TiV,"Hf22,2-Nb22,2-Ti22,2-V22,2-Si11,3",Refractario,Levitación en crisol frío fusión en atmósfera de argón + Ensayo a 800 °C,BCC+IM,8.6,NA,NA,875,NA,50
+512,HfNbSi0.5TiV,"Hf22,2-Nb22,2-Ti22,2-V22,2-Si11,4",Refractario,Levitación en crisol frío fusión en atmósfera de argón + Ensayo a 1000 °C,BCC+IM,8.6,NA,NA,240,NA,50
+513,TaNbHfZr,Ta-Nb-Hf-Zr,Refractario,fusion por arco,BCC,11.1,362,109,1200,1920,34
+514,TaNbHfZr,Ta-Nb-Hf-Zr,Refractario,fusion por arco + homogenizado 1800°C por 6 h,BCC,11.1,490,NA,1500,2050,7
+515,TaNbHfZr,Ta-Nb-Hf-Zr,Refractario,fusion por arco + homogenizado 1800°C por 1 dia,BCC,11.1,570,NA,2290,2290,6
+516,TaNbHfZr,Ta-Nb-Hf-Zr,Refractario,fusion por arco + homogenizado 1800°C por 4 dia,BCC,11.1,550,NA,1920,2150,6.3
+517,TaNbHfZr,Ta-Nb-Hf-Zr,Refractario,fusion por arco + homogenizado 1800°C por 8 dia,BCC,11.1,535,NA,2100,2080,11
+518,Hf0.5Nb0.5Ta0.5Ti1.5Zr,Hf0.5-Nb0.5-Ta0.5-Ti1.5-Zr,Refractario,Fusion por arco,BCC,8.1,301,107,903,990,19
+519,TaNbHfZrTi,"Ta19,68-Nb18,93-Hf20,46-Zr21,23-Ti19,7",Refractario,Fusion por arco al vacio,BCC,9.9,390,111,929,NA,50
+520,TaNbHfZrTi,"Ta19,68-Nb18,93-Hf20,46-Zr21,23-Ti19,7",Refractario,Fusion por arco al vacio + estudio 600°C,BCC,9.9,NA,NA,675,NA,50
+521,TaNbHfZrTi,"Ta19,68-Nb18,93-Hf20,46-Zr21,23-Ti19,7",Refractario,Fusion por arco al vacio + estudio 800°C,BCC,9.9,NA,NA,535,NA,50
+522,TaNbHfZrTi,"Ta19,68-Nb18,93-Hf20,46-Zr21,23-Ti19,7",Refractario,Fusion por arco al vacio + estudio 1000°C,BCC,9.9,NA,NA,295,NA,50
+523,TaNbHfZrTi,"Ta19,68-Nb18,93-Hf20,46-Zr21,23-Ti19,7",Refractario,Fusion por arco al vacio + estudio 1200°C,BCC,9.9,NA,NA,92,NA,50
+524,TaNbHfZrTi,"Ta19,68-Nb18,93-Hf20,46-Zr21,23-Ti19,7",Refractario,Fusion por arco al vacio + estudio 1400°C,BCC,9.9,NA,NA,790,NA,50
+525,HfNbTiZr,Hf-Nb-Ti-Zr,Refractario,Fusion por arco + homogenizado 1573 K por 6 h,BCC,8.4,NA,92,879,969,15
+526,MoNbTaV,Mo-Nb-Ta-V,Refractario,Fusion por arco,BCC,10.7,504,187,1525,2400,21
+527,MoNbTaVW,Mo-Nb-Ta-V-W,Refractario,Fusion por arco al vacio,BCC,12.4,536,232,1246,1270,1.7
+528,MoNbTaVW,Mo-Nb-Ta-V-W,Refractario,Fusion por arco al vacio + estudio a 600 °C,BCC,12.4,NA,NA,862,NA,13
+529,MoNbTaVW,Mo-Nb-Ta-V-W,Refractario,Fusion por arco al vacio + estudio a 800 °C,BCC,12.4,NA,NA,846,NA,17
+530,MoNbTaVW,Mo-Nb-Ta-V-W,Refractario,Fusion por arco al vacio + estudio a 1000 °C,BCC,12.4,NA,NA,842,NA,19
+531,MoNbTaVW,Mo-Nb-Ta-V-W,Refractario,Fusion por arco al vacio + estudio a 1200 °C,BCC,12.4,NA,NA,735,NA,7.5
+532,MoNbTaVW,Mo-Nb-Ta-V-W,Refractario,Fusion por arco al vacio + estudio a 1400 °C,BCC,12.4,NA,NA,656,NA,40
+533,MoNbTaVW,Mo-Nb-Ta-V-W,Refractario,Fusion por arco al vacio + estudio a 1600 °C,BCC,12.4,NA,NA,477,NA,40
+534,MoNbTaW,Mo-Nb-Ta-W,Refractario,Fusion por arco al vacio,BCC,13.8,454,258,1058,1211,2.6
+535,MoNbTaW,Mo-Nb-Ta-W,Refractario,Fusion por arco al vacio + estudio a 600 °C,BCC,13.8,NA,NA,561,NA,40
+536,MoNbTaW,Mo-Nb-Ta-W,Refractario,Fusion por arco al vacio + estudio a 800 °C,BCC,13.8,NA,NA,552,NA,40
+537,MoNbTaW,Mo-Nb-Ta-W,Refractario,Fusion por arco al vacio + estudio a 1000 °C,BCC,13.8,NA,NA,548,NA,40
+538,MoNbTaW,Mo-Nb-Ta-W,Refractario,Fusion por arco al vacio + estudio a 1200 °C,BCC,13.8,NA,NA,506,NA,40
+539,MoNbTaW,Mo-Nb-Ta-W,Refractario,Fusion por arco al vacio + estudio a 1400 °C,BCC,13.8,NA,NA,421,NA,40
+540,MoNbTaW,Mo-Nb-Ta-W,Refractario,Fusion por arco al vacio + estudio a 1600 °C,BCC,13.8,NA,NA,405,NA,40
+541,MoNbTiV0.25Zr,Mo-Nb-Ti-V0.25-Zr,Refractario,Fusion mediante mnetodo Bridgman,BCC,7.3,NA,153,1776,3893,30
+542,MoNbTiV0.50Zr,Mo-Nb-Ti-V0.50-Zr,Refractario,Fusion mediante mnetodo Bridgman,BCC,7.2,NA,152,1647,3307,28
+543,MoNbTiV0.75Zr,Mo-Nb-Ti-V0.75-Zr,Refractario,Fusion mediante mnetodo Bridgman,BCC,7.2,NA,150,1708,3929,29
+544,MoNbTiV1.0Zr,Mo-Nb-Ti-V1.0-Zr,Refractario,Fusion mediante mnetodo Bridgman,BCC,7.1,NA,149,1786,3828,26
+545,MoNbTiV1.5Zr,Mo-Nb-Ti-V1.5-Zr,Refractario,Fusion mediante mnetodo Bridgman,BCC,7.1,NA,147,1735,3300,20
+546,MoNbTiV2.0Zr,Mo-Nb-Ti-V2.0-Zr,Refractario,Fusion mediante mnetodo Bridgman,BCC,7,NA,146,1538,3176,23
+547,MoNbTiV3.0Zr,Mo-Nb-Ti-V3.0-Zr,Refractario,Fusion mediante mnetodo Bridgman,BCC,6.9,NA,143,1418,2508,24
+548,MoNbTiZr,Mo-Nb-Ti-Zr,Refractario,Fusion mediante mnetodo Bridgman,BCC,7.3,NA,155,1592,3450,34
+549,NbTaVW,Nb-Ta-V-W,Refractario,Fusion por arco al vacio,BCC,12.9,492,208,1530,NA,12
+550,NbTaTiVW,Nb-Ta-Ti-V-W,Refractario,Fusion por arco al vacio,BCC+HCP,11.1,447,NA,1420,NA,20
+551,CoFeNiV,Co-Fe-Ni-V,HEA,Fusion por arco al vacio,FCC,7.8,238,187,NA,NA,NA
+552,CoFeMo0.2NiV,Co-Fe-Mo0.2-Ni-V,HEA,Fusion por arco al vacio,FCC+IM,8,267,NA,NA,NA,NA
+553,CoFeMo0.4NiV,Co-Fe-Mo0.4-Ni-V,HEA,Fusion por arco al vacio,FCC+IM,8.1,402,NA,NA,NA,NA
+554,CoFeMo0.6NiV,Co-Fe-Mo0.6-Ni-V,HEA,Fusion por arco al vacio,FCC+IM,8.2,557,NA,NA,NA,NA
+555,CoFeMo0.8NiV,Co-Fe-Mo0.8-Ni-V,HEA,Fusion por arco al vacio,FCC+IM,8.3,606,NA,NA,NA,NA
+556,CoFeMoNiV,Co-Fe-Mo-Ni-V,HEA,Fusion por arco al vacio,FCC+IM,8.4,625,NA,NA,NA,NA
+557,CoFeMoNi1.2V,Co-Fe-Mo-Ni1.2-V,HEA,Fusion por arco al vacio,FCC+IM,8.4,602,NA,NA,NA,NA
+558,CoFeMoNi1.4V,Co-Fe-Mo-Ni1.4-V,HEA,Fusion por arco al vacio,FCC+IM,8.5,538,NA,NA,NA,NA
+559,CoFeMoNi1.6V,Co-Fe-Mo-Ni1.6-V,HEA,Fusion por arco al vacio,FCC+IM,8.5,520,NA,NA,NA,NA
+560,CoFeMoNi1.8V,Co-Fe-Mo-Ni1.8-V,HEA,Fusion por arco al vacio,FCC+IM,8.5,510,NA,NA,NA,NA
+561,CoFeMoNi2V,Co-Fe-Mo-Ni2-V,HEA,Fusion por arco al vacio,FCC+IM,8.5,382,NA,NA,NA,NA
+562,CoCrCuFeMnNiTiV,Co-Cr-Cu-Fe-Mn-Ni-Ti-V,HEA,fusión por inducción de media frecuencia en atmósfera inerte,FCC+IM,7.3,NA,74,1312,1312,1
+563,Al11.1(CoCrCuFeMnNiTiV)88.9,Al11.1(Co-Cr-Cu-Fe-Mn-Ni-Ti-V)88.10,HEA,fusión por inducción de media frecuencia en atmósfera inerte,FCC+BCC,6.7,NA,164,1862,2431,1
+564,Al20(CoCrCuFeMnNiTiV)80,Al20(Co-Cr-Cu-Fe-Mn-Ni-Ti-V)81,HEA,fusión por inducción de media frecuencia en atmósfera inerte,BCC,6.1,NA,190,1465,2016,2
+565,Al40(CoCrCuFeMnNiTiV)60,Al40(Co-Cr-Cu-Fe-Mn-Ni-Ti-V)61,HEA,fusión por inducción de media frecuencia en atmósfera inerte,BCC+IM,5.1,NA,163,1461,1461,1
+566,(CuMnNi)75Zn25,(CuMnNi)75Zn26,HEA,"Fusion por arco + calentamiento escalonado a 700°C, 900°C, 1050°C",FCC,8.3,147,169,215,NA,60
+567,(CuMnNi)80Zn20,(CuMnNi)80Zn21,HEA,"Fusion por arco + calentamiento escalonado a 700°C, 900°C, 1050°C",FCC,8.3,109,171,140,NA,65
+568,(CuMnNi)90Al10,(CuMnNi)90Al11,HEA,"Fusion por arco + calentamiento escalonado a 700°C, 900°C, 1050°C",FCC+IM,8.1,241,NA,515,NA,40
+569,(CuMnNi)90Sn10,(CuMnNi)90Sn11,HEA,"Fusion por arco + calentamiento escalonado a 700°C, 900°C, 1050°C",FCC+IM,8.3,318,NA,630,NA,20
+570,(CuMnNi)95Al5,(CuMnNi)95Al6,HEA,"Fusion por arco + calentamiento escalonado a 700°C, 900°C, 1050°C",FCC,8.3,166,174,330,NA,45
+571,(CuMnNi)95Sn5,(CuMnNi)95Sn6,HEA,"Fusion por arco + calentamiento escalonado a 700°C, 900°C, 1050°C",FCC+IM,8.4,205,NA,380,NA,63
