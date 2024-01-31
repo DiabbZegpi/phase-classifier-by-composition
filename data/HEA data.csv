@@ -1,4 +1,4 @@
-﻿Numero,Aleacion ,Composicion (at.%),Categoria ,Fabricacion,Fases ,Categoría,Densidad (g/cm3),Dureza (HV),Modulo de Young (GPa),Limite Elastico (Mpa),Esfuerzo ultimo ,Deformacion,Fecha publicacion,DOI
+Numero,Aleacion ,Composicion (at.%),Categoria ,Fabricacion,Fases ,Categoría,Densidad (g/cm3),Dureza (HV),Modulo de Young (GPa),Limite Elastico (Mpa),Esfuerzo ultimo ,Deformacion,Fecha publicacion,DOI
 1,Al40Cu15Cr15Fe15Si15,Al41-Cu13-Fe14-Cr16-Si16,LHEA,Induccion al vacio  modelo VIM,Al13Fe4+Ƭ1-AlFeSi+FeSi,BCC + IM,4.5,916,N/A,2994,N/A,N/A,21-abr-18,https://doi.org/10.1016/j.jmrt.2018.06.010
 2,Al65Cu5Cr5Si15Mn5Ti5,Al66-Cu6-Cr4-Si13-Mn7-Ti4,LHEA,Induccion al vacio  modelo VIM,Al0.74Mn0.20Si0.06+Al2Cu+Al5Si12Ti7+Al19Mn4,BCC + IM,3.7,889,N/A,2916,N/A,N/A,22-abr-18,https://doi.org/10.1016/j.jmrt.2018.06.010
 3,Al60Cu10Fe10Cr5Mn5Ni5Mg5,Al60-Cu11-Fe10-Cr6-Mn5-Ni6-Mg2,LHEA,Induccion al vacio  modelo VIM,Al3Ni2+Al7Cu4Ni+Mg2Cu6Al5 ,AM,4.6,743,N/A,2429,N/A,N/A,23-abr-18,https://doi.org/10.1016/j.jmrt.2018.06.010
@@ -234,7 +234,7 @@
 233,CoCrFeNb0.412Ni,"Cr22,67-Fe22,67-Co22,67-Ni22,67-Nb9,32",HEA,Fusion por arco ,FCC + Im,FCC+IM,8.2,N/A,N/A,638,1004,1,09-ene-15,https://doi.org/10.1016/j.intermet.2015.01.004
 234,CoCrFeMo0.5Ni,"Cr22,2-Fe22,2-Co22,2-Ni22,2-Mo11,2",HEA,Fusion por arco ,FCC + Im,FCC+IM,8.5,210,N/A,N/A,N/A,N/A,19-ago-13,https://doi.org/10.1007/s11837-013-0753-6
 235,Al0.5CoCrFeMo0.5Ni,Al10-Cr20-Fe20-Co20-Ni20-Mo10,HEA,Fusion por arco ,FCC + Im,FCC+IM,7.7,425,N/A,N/A,N/A,N/A,19-ago-13,https://doi.org/10.1007/s11837-013-0753-6
-236,Al1.5CoCrFeMo0.5Ni,"Al25,0-Cr16,7-Fe16,7-Co16,7-Nio16,7-Mo8,2",HEA,Fusion por arco ,BCC + Im,BCC+IM,6.6,655,N/A,N/A,N/A,N/A,19-ago-13,https://doi.org/10.1007/s11837-013-0753-6
+236,Al1.5CoCrFeMo0.5Ni,"Al25,0-Cr16,7-Fe16,7-Co16,7-Ni16,7-Mo8,2",HEA,Fusion por arco ,BCC + Im,BCC+IM,6.6,655,N/A,N/A,N/A,N/A,19-ago-13,https://doi.org/10.1007/s11837-013-0753-6
 237,Al2CoCrFeMo0.5Ni,"Al30,8-Cr15,4-Fe15,4-Co15,4-Ni15,4-Mi7,6",HEA,Fusion por arco ,BCC,BCC,6.3,605,185,N/A,N/A,N/A,19-ago-13,https://doi.org/10.1007/s11837-013-0753-6
 238,AlCoCrFeMo0.5Ni,"Al18,2-Cr18,2-Fe18,2-Co18,2-Ni18,2-Mo9,0",HEA,Fusion por arco ,BCC + Im,BCC+IM,7.1,715,N/A,N/A,N/A,N/A,19-ago-13,https://doi.org/10.1007/s11837-013-0753-6
 239,CoCrFeNiTi,Co20-Cr20-Fe20-Ni20-Ti20,HEA,Fusion por arco + enfriamiento por agua ,FCC,FCC,7.2,N/A,135,N/A,2020,9,22-dic-08,https://doi.org/10.1016/j.msea.2008.12.053
@@ -320,14 +320,14 @@
 319,Al0.95CoCrFeMnNi,Al0.95-Co-Cr-Fe-Mn-Ni,HEA,Fusion por arco,FCC + BCC,FCC+BCC,6.9,535,196,N/A,N/A,N/A,22-sept-13,https://doi.org/10.1016/j.actamat.2013.09.037
 320,Al1.25CoCrFeMnNi,Al1.25-Co-Cr-Fe-Mn-Ni,HEA,Fusion por arco,BCC,BCC,6.6,539,190,N/A,N/A,N/A,22-sept-13,https://doi.org/10.1016/j.actamat.2013.09.037
 321,Co-Cr-Fe-Ni,Co-Cr-Fe-Ni,MEA,Fusion por arco ,FCC,FCC,N/A,160,N/A,140,488,83,25-dic-13,https://doi.org/10.1016/j.jallcom.2013.12.210
-322,CoCrFeNiMn,Co-Cr-F-e-Ni-Mn,HEA,Fusion por arco ,FCC,FCC,N/A,170,N/A,215,491,71,25-dic-13,https://doi.org/10.1016/j.jallcom.2013.12.210
+322,CoCrFeNiMn,Co-Cr-Fe-Ni-Mn,HEA,Fusion por arco ,FCC,FCC,N/A,170,N/A,215,491,71,25-dic-13,https://doi.org/10.1016/j.jallcom.2013.12.210
 323,CoCrFeNiV,Co-Cr-Fe-Ni-V,HEA,Fusion por arco ,FCC + Tetragonal ,FCC,N/A,524,N/A,N/A,311,N/A,25-dic-13,https://doi.org/10.1016/j.jallcom.2013.12.210
 324,CoCrFeNiMnV,Co-Cr-Fe-Ni-Mn-V,HEA,Fusion por arco ,FCC + Tetragonal ,FCC,N/A,650,N/A,N/A,90,N/A,25-dic-13,https://doi.org/10.1016/j.jallcom.2013.12.210
 325,CoCrFeNi,Co-Cr-Fe-Ni,MEA,Fusion por arco + homogenizado 1000°C por 24 h,FCC,FCC,N/A,134,N/A,130,458,87,25-dic-13,https://doi.org/10.1016/j.jallcom.2013.12.210
-326,CoCrFeNiMn,Co-Cr-F-e-Ni-Mn,HEA,Fusion por arco + homogenizado 1000°C por 24 h,FCC,FCC,N/A,135,N/A,162,443,68,25-dic-13,https://doi.org/10.1016/j.jallcom.2013.12.210
+326,CoCrFeNiMn,Co-Cr-Fe-Ni-Mn,HEA,Fusion por arco + homogenizado 1000°C por 24 h,FCC,FCC,N/A,135,N/A,162,443,68,25-dic-13,https://doi.org/10.1016/j.jallcom.2013.12.210
 327,CoCrFeNiV,Co-Cr-Fe-Ni-V,HEA,Fusion por arco + homogenizado 1000°C por 24 h,FCC + Tetragonal ,FCC,N/A,587,N/A,N/A,330,N/A,25-dic-13,https://doi.org/10.1016/j.jallcom.2013.12.210
 328,CoCrFeNiMnV,Co-Cr-Fe-Ni-Mn-V,HEA,Fusion por arco + homogenizado 1000°C por 24 h,FCC + Tetragonal ,FCC,N/A,636,N/A,N/A,62,N/A,25-dic-13,https://doi.org/10.1016/j.jallcom.2013.12.210
-329,CoCrFeMnNi,"Co19,9-Cr20,6-Fe20,1-Nio20,0-Mn19,5",HEA,Fusion por arco + Recocido 1000°C por24 h,FCC,FCC,8.0,144,219,230,N/A,75,16-dic-14,https://doi.org/10.1016/j.jallcom.2014.12.157
+329,CoCrFeMnNi,"Co19,9-Cr20,6-Fe20,1-Ni20,0-Mn19,5",HEA,Fusion por arco + Recocido 1000°C por24 h,FCC,FCC,8.0,144,219,230,N/A,75,16-dic-14,https://doi.org/10.1016/j.jallcom.2014.12.157
 330,CoCrFeMnNiV0.25,"Co19,3-Cr20,0-Fe19,6-Ni19,5-Mn17-V4,6",HEA,Fusion por arco + Recocido 1000°C por24 h,FCC,FCC,7.9,151,215,200,N/A,75,16-dic-14,https://doi.org/10.1016/j.jallcom.2014.12.157
 331,CoCrFeMnNiV0.5,"Co18,9-Cr18,8-Fe18,4-Ni18,0-Mn17,8-V9,1",HEA,Fusion por arco + Recocido 1000°C por24 h,FCC,FCC,7.8,186,211,620,N/A,75,16-dic-14,https://doi.org/10.1016/j.jallcom.2014.12.157
 332,CoCrFeMnNiV0.75,"Co17,2-Cr17,5-Fe18,2-Ni17,2-Mn16,5-V13,3",HEA,Fusion por arco + Recocido 1000°C por24 h,FCC + Tetragonal ,FCC,7.7,342,N/A,740,1325,8,16-dic-14,https://doi.org/10.1016/j.jallcom.2014.12.157
@@ -441,7 +441,7 @@
 440,Al0.3NbTa0.8Ti1.4V0.2Zr1.3,"Al5,2-Nb23,4-Ta13,2-Ti27,7-V4,3-Zr26,2",Refractario,Aleacion por arco al vacio,BCC,BCC,7.7,500,110,1965,2061,5,12-jun-14,https://doi.org/10.1007/s11837-014-1066-0
 441,Al0.5NbTa0.8Ti1.5V0.2Zr,"Al11,3-Nb22,3-Ta13,1-Ti27,9-V4,5-Zr20,9",Refractario,Aleacion por arco al vacio,BCC,BCC,7.6,530,111,2035,2105,5,12-jun-14,https://doi.org/10.1007/s11837-014-1066-0
 442,Al0.3NbTaTi1.4Zr1.3,"Al5,7-Nb23,5-Ta17,6-Ti27,2-Zr26",Refractario,Aleacion por arco al vacio,BCC,BCC,8.1,490,113,1965,2054,5,12-jun-14,https://doi.org/10.1007/s11837-014-1066-0
-443,AlNb1.5Ta0.5Ti1.5Zr0.5,"Al21,9-Nb32-Ta9-Ti26,7-Ze10,3",Refractario,Aleacion por arco al vacio,BCC,BCC,6.8,408,106,1280,1367,4,12-jun-14,https://doi.org/10.1007/s11837-014-1066-0
+443,AlNb1.5Ta0.5Ti1.5Zr0.5,"Al21,9-Nb32-Ta9-Ti26,7-Zr10,3",Refractario,Aleacion por arco al vacio,BCC,BCC,6.8,408,106,1280,1367,4,12-jun-14,https://doi.org/10.1007/s11837-014-1066-0
 444,Al0.3HfNbTaTiZr,"Al6,6-Hf18,7-Nb18,6-Ta18,4-Ti18,4-Zr19,3",Refractario,Aleacion por arco al vacio,BCC,BCC,9.5,353,63,1188,N/A,50,08-nov-14,https://doi.org/10.1016/j.jallcom.2014.11.064
 445,Al0.5HfNbTaTiZr,"Al9,4-Hf18,0-Nb17,6-Ta17,6-Ti18,3-Zr19,1",Refractario,Aleacion por arco al vacio,BCC,BCC,9.3,396,97,1302,N/A,46,08-nov-14,https://doi.org/10.1016/j.jallcom.2014.11.064
 446,Al0.75HfNbTaTiZr,"Al12,5-Hf16,9-Nb17,4-Ta17,6-Ti17,6-Zr18,2",Refractario,Aleacion por arco al vacio,BCC,BCC,9.3,427,102,1415,2050,30,08-nov-14,https://doi.org/10.1016/j.jallcom.2014.11.064
