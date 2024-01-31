@@ -1,0 +1,39 @@
+---
+title: "function tester"
+format: html
+editor_options: 
+  chunk_output_type: inline
+---
+
+```{r}
+library(tidyverse)
+data_path <- "data/HEA data.csv"
+hea_data <- read_csv(data_path)
+```
+
+```{r}
+set.seed(133)
+hea_sample <- hea_data |> slice_sample(n = 5)
+hea_sample
+```
+
+```{r}
+hea_sample |> 
+  transmute(
+    composicion = `Composicion (at.%)`,
+    lista_elementos = str_match_all(composicion, "([a-zA-Z]{1,2})(\\d[:punct:]?\\d*)?")
+  ) |> 
+  mutate(
+    elementos = map(lista_elementos, ~ .x[, 2]),
+    porcentajes = map(lista_elementos, ~ parse_number(str_replace(.x[, 3], ",", "."))),
+    porcentaje_compl = map_dbl(porcentajes, ~ 100 - sum(.x, na.rm = TRUE)),
+    porcentaje_na_cnt = map_int(porcentajes, ~ sum(is.na(.x))),
+    porcentaje_clean = pmap(
+      list(porcentajes, porcentaje_compl, porcentaje_na_cnt), 
+      function(x, y, z) replace_na(x, y / z)
+    )
+  ) |> 
+  pull(porcentaje_clean)
+```
+
+
