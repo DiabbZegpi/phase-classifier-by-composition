@@ -8,7 +8,7 @@ editor_options:
 ```{r}
 library(tidyverse)
 library(here)
-data_path <- here("data/HEA data.csv")
+data_path <- here("data/HEA_raw.csv")
 hea_data <- read_csv(data_path)
 ```
 
@@ -70,7 +70,8 @@ hea_wider <- hea_preproc |>
     by = join_by(id),
     na_matches = "never",
     relationship = "one-to-one"
-  )
+  ) |> 
+  relocate(aleacion, .after = composicion)
 ```
 
 ```{r}
