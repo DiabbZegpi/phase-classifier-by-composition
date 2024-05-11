@@ -8,21 +8,22 @@ editor_options:
 ```{r}
 library(tidyverse)
 library(here)
-data_path <- here("data/HEA_raw.csv")
-hea_data <- read_csv(data_path)
+data_path <- here("data/HEA data.xlsx")
+hea_data <- readxl::read_xlsx(data_path)
 ```
 
 
 ```{r}
-hea_selected <- hea_data |> 
-  filter(`Composicion (at.%)` != "N/A") |> 
+hea_selected <- 
+  hea_data |> 
+  # filter(`Composicion (at.%)` != "N/A") |> 
   transmute(
     id = Numero,
     aleacion = Aleacion,
     composicion = `Composicion (at.%)`,
     categoria = Categoria,
     fabricacion = Fabricacion,
-    fase = Categoría,
+    fase = Fases,
     densidad = `Densidad (g/cm3)`,
     dureza = `Dureza (HV)`,
     modulo_young = `Modulo de Young (GPa)`,
@@ -31,13 +32,29 @@ hea_selected <- hea_data |>
     esfuerzo_ultimo = `Esfuerzo ultimo`,
     deformacion = Deformacion,
   ) |> 
-  mutate(across(densidad:deformacion, ~ parse_number(na_if(str_replace(.x, ",", "."), "N/A"))))
+  mutate(
+    across(
+      densidad:deformacion, 
+      ~ parse_number(na_if(str_replace(.x, ",", "."), "N/A"))
+    ),
+    aleacion = str_remove(aleacion, " \\+.+$")
+  )
+```
 
+
+```{r}
+# Cross-reference with periodic table of elements
+periodic_url <- "https://gist.githubusercontent.com/GoodmanSciences/c2dd862cd38f21b0ad36b8f96b4bf1ee/raw/1d92663004489a5b6926e944c1b3d9ec5c40900e/Periodic%2520Table%2520of%2520Elements.csv"
+periodic_table <- read_csv(periodic_url)
+```
+
+
+```{r}
 hea_preproc <- hea_selected |> 
   mutate(
     # Get 1 or 2 letters (the element) followed by a number that might be integer or decimal
     # Elements without atomic-pct get NA, which is useful later
-    lista_elementos = str_match_all(composicion, "([a-zA-Z]{1,2})(\\d+[:punct:]?\\d*)?"),
+    lista_elementos = str_match_all(aleacion, "([A-Za-z][a-z]?)(\\d+[:punct:]?\\d*)?"),
     elementos = map(lista_elementos, ~ .x[, 2]),
     porcentajes = map(lista_elementos, ~ parse_number(str_replace(.x[, 3], ",", "."))),
     # if comp #1 is Al10 Co Fe, then Co and Fe add up to 90, so 90/2 each
@@ -49,10 +66,9 @@ hea_preproc <- hea_selected |>
     ),
     df = map2(elementos, porcentaje_clean, ~ tibble("elementos" = .x, "pct_atom" = .y))
   ) |> 
-  select(id, composicion, df) |> 
+  select(id, aleacion, df) |> 
   unnest(df) |> 
-  mutate(elementos = str_to_sentence(elementos)) |> 
-  filter(!elementos %in% c("At", "Wt", "En"))
+  mutate(elementos = str_to_sentence(elementos))
 ```
 
 
@@ -63,22 +79,12 @@ hea_wider <- hea_preproc |>
     values_from = pct_atom, 
     values_fill = 0, 
     values_fn = unique,
-    id_cols = c(id, composicion)
-  ) |> 
-  left_join(
-    hea_selected |> select(id, aleacion),
-    by = join_by(id),
-    na_matches = "never",
-    relationship = "one-to-one"
-  ) |> 
-  relocate(aleacion, .after = composicion)
+    id_cols = c(id, aleacion)
+  )
 ```
 
 ```{r}
-write_csv(hea_selected, here("data/propiedades.csv"))
-write_csv(hea_wider, here("data/porcentaje_atomico.csv"))
+write_csv(hea_selected, here("data", "propiedades.csv"))
+write_csv(hea_wider, here("data", "porcentaje_atomico.csv"))
+write_csv(periodic_table, here("data", "tabla_periodica.csv"))
 ```
-
-
-
-
